@@ -1,0 +1,19 @@
+
+E
+java:S3740m"/Provide the parametrized type for this generic.(´“½
+E
+java:S3740x"/Provide the parametrized type for this generic.(™÷˜©
+{
+java:S1319m"eThe type of "list" should be an interface such as "List" rather than the implementation "LinkedList".(´“½
+{
+java:S1319x"eThe type of "list" should be an interface such as "List" rather than the implementation "LinkedList".(™÷˜©
+a	java:S101>"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÚÑîT
+M	java:S106A"9Replace this use of System.out or System.err by a logger.(Æ—
+G
+java:S1481B"1Remove this unused "winnerOfGame" local variable.(‰ªÈé
+\
+java:S1126Y"AReplace this if-then-else statement by a single return statement.(­…ƒ«ùÿÿÿÿ
+=
+java:S1125\"(Remove the unnecessary boolean literals.(ô’
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

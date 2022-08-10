@@ -1,0 +1,27 @@
+
+e
+java:S1104/"OMake set a static final constant or non-public and provide accessors if needed.(éÜªü
+?
+java:S1444/")Make this "public static set" field final(éÜªü
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(éä 
+W
+java:S4973!"<Strings and Boxed types should be compared using "equals()".(†Á¸ÿÿÿÿÿ
+W
+java:S4973'"<Strings and Boxed types should be compared using "equals()".(ÑÌ§«üÿÿÿÿ
+R
+java:S4973*"<Strings and Boxed types should be compared using "equals()".(ûß‰İ
+Z
+java:S25835"DChange this condition so that it does not always evaluate to "false"(‡ùë»
+3
+java:S2386/"Make this member "protected".(éÜªü
+Q	java:S125"<This block of commented-out lines of code should be removed.(ñİĞØ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(†Á¸ÿÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(¼Ú–áûÿÿÿÿ
+7
+java:S2129%"!Remove this "Integer" constructor(¥¼‡
+<
+java:S2129&"!Remove this "Integer" constructor(ëÛø‘ùÿÿÿÿ
+S	java:S106'"9Replace this use of System.out or System.err by a logger.(ÑÌ§«üÿÿÿÿ
+N	java:S106*"9Replace this use of System.out or System.err by a logger.(ûß‰İ
+E
+java:S1481@"*Remove this unused "floor" local variable.(ÇŸ˜·ÿÿÿÿÿ

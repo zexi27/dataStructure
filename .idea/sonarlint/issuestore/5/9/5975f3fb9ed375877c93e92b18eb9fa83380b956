@@ -1,0 +1,21 @@
+
+q
+java:S1104+"VMake dictionary a static final constant or non-public and provide accessors if needed.(‚ ±ˆûÿÿÿÿ
+K
+java:S1444+"0Make this "public static dictionary" field final(‚ ±ˆûÿÿÿÿ
+b	java:S101)"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ýÎŒ˜
+—
+java:S1186-"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Óáƒó
+8
+java:S2386+"Make this member "protected".(‚ ±ˆûÿÿÿÿ
+Q	java:S125""<This block of commented-out lines of code should be removed.(â¤Èî
+L
+java:S26961"6Make the enclosing method "static" or remove this set.(þ‰˜Æ
+K
+java:S22091"5Change this instance-reference to a static reference.(þ‰˜Æ
+1
+java:S36268"Remove this redundant jump.(€ü¡
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ

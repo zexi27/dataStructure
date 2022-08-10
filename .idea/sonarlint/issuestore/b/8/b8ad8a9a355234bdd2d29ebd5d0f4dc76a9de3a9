@@ -1,0 +1,6 @@
+
+v
+java:S1488F"[Immediately return this expression instead of assigning it to the temporary variable "res".(¾ĞÌŒúÿÿÿÿ
+g	java:S101 "MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(½¹Æıÿÿÿÿ
+A
+java:S1168O"+Return an empty collection instead of null.(¥¹ï

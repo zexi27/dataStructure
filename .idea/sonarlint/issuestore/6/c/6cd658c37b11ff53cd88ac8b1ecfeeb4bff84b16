@@ -1,0 +1,16 @@
+
+E
+java:S1066<"/Merge this if statement with the enclosing one.(Å¤ÒÅ
+E
+java:S1066A"/Merge this if statement with the enclosing one.(Å¤ÒÅ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÿ ¯üÿÿÿÿ
+W
+java:S4973E"<Strings and Boxed types should be compared using "equals()".(æú™üÿÿÿÿÿ
+N	java:S106!"9Replace this use of System.out or System.err by a logger.(¢Ùâ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(€ã¯
+Q	java:S125""<This block of commented-out lines of code should be removed.(„çÚ
+m
+java:S3776'"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ÚÈèŒøÿÿÿÿ
+o
+java:S3012*"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ùõéè
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(ç’¤™
