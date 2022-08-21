@@ -11,6 +11,7 @@ package com.zlq.common;
 public class ListNode {
     public Integer value;
     public ListNode next;
+    public ListNode pre;
 
     public ListNode(Integer value) {
         this.value = value;
