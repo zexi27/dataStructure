@@ -3,7 +3,8 @@ package com.zlq.day160;
 import com.zlq.common.ListNode;
 import com.zlq.common.TreeNode;
 
-import java.util.List;
+import java.util.*;
+import java.util.concurrent.Executors;
 
 /**
  * @ProjectName:dataStructurePractise
@@ -32,21 +33,13 @@ import java.util.List;
 public class Day153_RemoveNthFromEnd {
 
     public static void main(String[] args) {
-        ListNode node1 = new ListNode(1);
-        ListNode node2 = new ListNode(3);
-//        ListNode node3 = new ListNode(5);
-//        ListNode node4 = new ListNode(7);
-//        ListNode node5 = new ListNode(9);
-        node1.next = node2;
-//        node2.next = node3;
-//        node3.next = node4;
-//        node4.next = node5;
-        ListNode head = removeNthFromEnd(node1, 2);
-        ListNode.print(head);
-
+        int[] target = {1, 1, 1, 1, 1};
+        int[] arr = {1, 1, 1, 1, 1};
+        System.out.println(canBeEqual1(target, arr));
     }
+
     public static ListNode removeNthFromEnd(ListNode head, int n) {
-        if (head.next == null &&  n == 1) return null;
+        if (head.next == null && n == 1) return null;
         ListNode sentinel = new ListNode(null);  // 哨兵节点
         sentinel.next = head;
         ListNode leftPoint = sentinel;
@@ -54,7 +47,7 @@ public class Day153_RemoveNthFromEnd {
         for (int i = 0; i < n; i++) {
             rightPoint = rightPoint.next;
         }
-        while (rightPoint.next != null){
+        while (rightPoint.next != null) {
             leftPoint = leftPoint.next;
             rightPoint = rightPoint.next;
         }
@@ -70,5 +63,34 @@ public class Day153_RemoveNthFromEnd {
         invertTree(root.left);
         invertTree(root.right);
         return root;
+    }
+
+
+    public static boolean canBeEqual(int[] target, int[] arr) {
+        Arrays.sort(target);
+        Arrays.sort(arr);
+        if (Arrays.equals(target, arr)) return true;
+        return false;
+    }
+
+    public static boolean canBeEqual1(int[] target, int[] arr) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < arr.length; i++) {
+            int key = arr[i];
+            map.put(key, map.getOrDefault(key, 0) + 1);
+        }
+        for (int i = 0; i < target.length; i++) {
+            int ele = target[i];
+            if (!Objects.isNull(map.get(ele))) {
+                Integer count = map.get(ele) - 1;
+                map.put(ele, count);
+                if (count < 0) return false;
+                else if (count == 0) map.remove(ele);
+            } else {
+                return false;
+            }
+
+        }
+        return map.isEmpty();
     }
 }
