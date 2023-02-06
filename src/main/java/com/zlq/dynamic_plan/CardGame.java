@@ -31,7 +31,6 @@ public class CardGame {
         if (l == r) return cards[l];
         return Math.max(cards[l] + g(l + 1, r, cards), cards[r] + g(l, r - 1, cards));
     }
-
     public static int g(int l, int r, int[] cards) {
         if (l == r) return 0;
         return Math.min(f(l + 1, r, cards), f(l, r - 1, cards));

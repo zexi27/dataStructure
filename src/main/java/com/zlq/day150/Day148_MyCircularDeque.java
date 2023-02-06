@@ -1,7 +1,6 @@
 package com.zlq.day150;
 
 import com.zlq.common.ListNode;
-import com.zlq.day40.day36_lrucache.Node;
 
 /**
  * @ProjectName:dataStructurePractise

@@ -2,8 +2,6 @@ package com.zlq.day140;
 
 import com.zlq.common.ListNode;
 
-import java.util.List;
-
 /**
  * @ProjectName:dataStructurePractise
  * @Package:com.zlq.day140

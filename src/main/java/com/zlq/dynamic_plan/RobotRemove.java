@@ -2,6 +2,8 @@ package com.zlq.dynamic_plan;
 
 import com.sun.org.apache.bcel.internal.generic.RET;
 
+import java.util.Arrays;
+
 /**
  * @ProjectName:dataStructurePractise
  * @Package:com.zlq.dynamic_plan
@@ -25,56 +27,82 @@ P-机器人的目标点
  */
 public class RobotRemove {
     public static void main(String[] args) {
-        System.out.println(numberOfMethods(1,5,6,7));
-        System.out.println(ways1(7,1,5,6));
+        System.out.println(numberOfMethods1(2, 4, 6, 5));
+        System.out.println(numberOfMethods2(2, 4, 6, 5));
+        System.out.println(way3Dp(2, 4, 6, 5));
     }
-    public static int numberOfMethods(int start, int aim, int step, int N) {
+
+    public static int numberOfMethods1(int start, int aim, int step, int N) {
         if (N < 2 || start < 1 || start > N || aim < 1 || aim > N || step < 1) {
             return -1;
         }
-        return way(start,aim,step,N);
+        return way1(start, aim, step, N);
     }
 
-    public static int way(int cur, int aim, int restStep, int N) {
+    public static int numberOfMethods2(int start, int aim, int step, int N) {
+        if (N < 2 || start < 1 || start > N || aim < 1 || aim > N || step < 1) {
+            return -1;
+        }
+        int[][] dp = new int[step + 1][N];
+        // 初始化缓存
+        for (int i = 0; i < step + 1; i++) {
+            for (int j = 0; j < N; j++) {
+                dp[i][j] = -1;
+            }
+        }
+
+        int res = way2(start, aim, step, N, dp);
+        return res;
+    }
+
+    public static int way1(int cur, int aim, int restStep, int N) {
         // base case
         if (restStep == 0) {
             if (cur == aim) return 1;
             else return 0;
         }
         // 最左位置
-        if (cur == 1) return way(2, aim, restStep - 1, N);
+        if (cur == 1) return way1(2, aim, restStep - 1, N);
         // 最右位置
-        if (cur == N) return way(N - 1, aim, restStep - 1, N);
+        if (cur == N) return way1(N - 1, aim, restStep - 1, N);
         // 中间位置
-        return way(cur + 1, aim, restStep - 1, N) + way(cur - 1, aim, restStep - 1, N);
+        return way1(cur + 1, aim, restStep - 1, N) + way1(cur - 1, aim, restStep - 1, N);
+    }
+
+    public static int way2(int cur, int aim, int restStep, int N, int[][] dp) {
+        if (dp[restStep][cur - 1] != -1) return dp[restStep][cur - 1];
+        int res = 0;
+
+        if (restStep == 0) {
+            if (cur == aim) res = 1;
+            else res = 0;
+        } else if (cur == 1) {
+            res = way2(2, aim, restStep - 1, N, dp);
+        } else if (cur == N) {
+            res = way2(N - 1, aim, restStep - 1, N, dp);
+        } else {
+            res = way2(cur + 1, aim, restStep - 1, N, dp) + way2(cur - 1, aim, restStep - 1, N, dp);
+        }
+        dp[restStep][cur - 1] = res;
+        return res;
+    }
+
+    public static int way3Dp(int start, int aim, int step, int N) {
+        int[][] dp = new int[step + 1][N];
+        for (int i = 0; i < dp[0].length; i++) {
+            dp[0][i] = i == aim - 1 ? 1 : 0;
+        }
+        for (int i = 1; i <= step; i++) {
+            dp[i][0] = dp[i - 1][1];
+            for (int j = 1; j < N - 1; j++) {
+                dp[i][j] = dp[i - 1][j - 1] + dp[i - 1][j + 1];
+            }
+            dp[i][N - 1] = dp[i - 1][N - 2];
+        }
+
+        return dp[step][start - 1];
+
     }
 
 
-    public static int ways1(int N, int start, int aim, int K) {
-        if (N < 2 || start < 1 || start > N || aim < 1 || aim > N || K < 1) {
-            return -1;
-        }
-        return process1(start, K, aim, N);
-    }
-
-    // 机器人当前来到的位置是cur，
-    // 机器人还有rest步需要去走，
-    // 最终的目标是aim，
-    // 有哪些位置？1~N
-    // 返回：机器人从cur出发，走过rest步之后，最终停在aim的方法数，是多少？
-    public static int process1(int cur, int rest, int aim, int N) {
-        if (rest == 0) { // 如果已经不需要走了，走完了！
-            return cur == aim ? 1 : 0;
-        }
-        // (cur, rest)
-        if (cur == 1) { // 1 -> 2
-            return process1(2, rest - 1, aim, N);
-        }
-        // (cur, rest)
-        if (cur == N) { // N-1 <- N
-            return process1(N - 1, rest - 1, aim, N);
-        }
-        // (cur, rest)
-        return process1(cur - 1, rest - 1, aim, N) + process1(cur + 1, rest - 1, aim, N);
-    }
 }

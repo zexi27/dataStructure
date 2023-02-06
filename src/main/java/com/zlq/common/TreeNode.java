@@ -19,10 +19,8 @@ public class TreeNode<T> {
         this.val = val;
     }
 
-    public TreeNode(T val, TreeNode left, TreeNode right) {
-        this.val = val;
-        this.left = left;
-        this.right = right;
+    public TreeNode(T val, TreeNode<T> cur, Object o) {
+
     }
 
     @Override

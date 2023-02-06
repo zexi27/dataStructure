@@ -10,19 +10,19 @@ package com.zlq.common;
  */
 public class ListNode {
     public Integer value;
+    public ListNode  pre;
     public ListNode next;
-    public ListNode pre;
 
-    public ListNode(Integer value) {
-        this.value = value;
+    public ListNode(Integer val) {
+        this.value = val;
     }
 
     public Integer getValue() {
         return value;
     }
 
-    public void setValue(Integer value) {
-        this.value = value;
+    public void setValue(Integer val) {
+        this.value = val;
     }
 
     public ListNode getNext() {
@@ -33,13 +33,22 @@ public class ListNode {
         this.next = next;
     }
 
-    @Override
-    public String toString() {
-        return "Node{" +
-                "value=" + value +
-                '}';
+    public ListNode getPre() {
+        return pre;
     }
 
+    public void setPre(ListNode pre) {
+        this.pre = pre;
+    }
+
+    @Override
+    public String toString() {
+        return "ListNode{" +
+                "value=" + value +
+                ", pre=" + pre +
+                ", next=" + next +
+                '}';
+    }
 
     public static void print(ListNode head) {
         while (head != null) {
