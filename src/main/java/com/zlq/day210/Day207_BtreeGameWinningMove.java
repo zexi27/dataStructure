@@ -109,6 +109,32 @@ public class Day207_BtreeGameWinningMove {
         }
     }
 
+    public boolean evaluateTree(TreeNode root, int n, int x) {
+        TreeNode target = findTarget(root, x);
+        int left = countSize(target.left);
+        int right = countSize(target.right);
+        int parent = n - left - right - 1;
+        return Math.max(Math.max(left, right), parent) > n / 2;
+    }
+
+    private TreeNode findTarget(TreeNode node, int x) {
+        if (node.val == x) return node;
+        if (node.left != null) {
+            TreeNode left = findTarget(node.left, x);
+            if (left != null) return left;
+        }
+        if (node.right != null) {
+            TreeNode right = findTarget(node.right, x);
+            if (right != null) return right;
+        }
+        return null;
+    }
+
+    private int countSize(TreeNode node) {
+        if (node == null) return 0;
+        return countSize(node.left) + countSize(node.right) + 1;
+    }
+
 }
 
 
