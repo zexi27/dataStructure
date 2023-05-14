@@ -105,7 +105,7 @@ public class Day201_CountNicePairs {
 
     private boolean containNumber(String password) {
         for (int i = 0; i < password.length(); i++) {
-            if (password.charAt(i) >= 48 && password.charAt(i)  <= 57) return true;
+            if (password.charAt(i) >= 48 && password.charAt(i) <= 57) return true;
         }
         return false;
     }
@@ -119,8 +119,17 @@ public class Day201_CountNicePairs {
 
     private boolean containLowercase(String password) {
         for (int i = 0; i < password.length(); i++) {
-            if (password.charAt(i)  >= 97 && password.charAt(i)  <= 122) return true;
+            if (password.charAt(i) >= 97 && password.charAt(i) <= 122) return true;
         }
         return false;
+    }
+
+    public static int commonFactors(int a, int b) {
+        int cnt = 0;
+        int small = a > b ? b : a;
+        for (int i = 0; i < small; i++) {
+            if (a % i == 0 && b % i == 0) cnt++;
+        }
+        return cnt;
     }
 }

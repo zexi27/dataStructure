@@ -15,7 +15,8 @@ import com.zlq.common.TreeNode;
 public class BalancedBinaryTree {
     public static void main(String[] args) {
         TreeNode root = TreeNode.buildTree();
-        System.out.println(isBalance(root));
+//        System.out.println(isBalance(root));
+        System.out.println(height(root));
     }
 
 

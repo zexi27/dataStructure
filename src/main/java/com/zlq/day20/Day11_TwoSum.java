@@ -21,20 +21,23 @@ Leetcode:给定两个非空链表来表示两个非负整数。
  */
 public class Day11_TwoSum {
     public static void main(String[] args) {
-        ListNode n1_2 = new ListNode(9);
-        ListNode n1_4 = new ListNode(9);
-        ListNode n1_3 = new ListNode(9);
-        ListNode n1_8 = new ListNode(9);
-        n1_2.setNext(n1_4);
-        n1_4.setNext(n1_3);
-        n1_3.setNext(n1_8);
-
-        ListNode n2_5 = new ListNode(9);
-        ListNode n2_6 = new ListNode(9);
-        ListNode n2_4 = new ListNode(9);
-        n2_5.setNext(n2_6);
-        n2_6.setNext(n2_4);
-        ListNode newNodeHead = addTwoNumbers(n1_2, n2_5);
+//        ListNode n1_2 = new ListNode(9);
+//        ListNode n1_4 = new ListNode(9);
+//        ListNode n1_3 = new ListNode(9);
+//        ListNode n1_8 = new ListNode(9);
+//        n1_2.setNext(n1_4);
+//        n1_4.setNext(n1_3);
+//        n1_3.setNext(n1_8);
+//
+//        ListNode n2_5 = new ListNode(9);
+//        ListNode n2_6 = new ListNode(9);
+//        ListNode n2_4 = new ListNode(9);
+//        n2_5.setNext(n2_6);
+//        n2_6.setNext(n2_4);
+//        ListNode newNodeHead = addTwoNumbers1(n1_2, n2_5);
+        ListNode n11 = new ListNode(9);
+        ListNode n21 = new ListNode(9);
+        ListNode newNodeHead = addTwoNumbers1(n11, n21);
         print(newNodeHead);
 
     }
@@ -68,6 +71,26 @@ public class Day11_TwoSum {
             head = head.next;
         }
     }
+
+    public static ListNode addTwoNumbers1(ListNode l1, ListNode l2) {
+        ListNode sentinel = new ListNode(0);
+        ListNode head = sentinel;
+        int carry = 0;
+        while (l1 != null || l2 != null) {
+            int curNum = (l1 != null ? l1.value : 0) + (l2 != null ? l2.value : 0) + carry;
+            carry = curNum >= 10 ? 1 : 0;
+            curNum = curNum >= 10 ? curNum - 10 : curNum;
+            head.next = new ListNode(curNum);
+            head = head.next;
+            if (l1 != null) l1 = l1.next;
+            if (l2 != null) l2 = l2.next;
+        }
+        if (carry == 1){
+            head.next = new ListNode(1);
+        }
+        return sentinel.next;
+    }
+
 }
 
 
