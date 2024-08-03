@@ -1,0 +1,20 @@
+
+•
+java:S1104"MMake t a static final constant or non-public and provide accessors if needed.(Ä¦ïÄúÿÿÿÿ8ì®¼‡2J$59205977-1014-4d68-946f-1a8c75de2d28
+™
+java:S1104"QMake count a static final constant or non-public and provide accessors if needed.(óÏ·°úÿÿÿÿ8ì®¼‡2J$15d49939-cd59-4f61-ad94-359ee66601d8
+o
+java:S1444"'Make this "public static t" field final(Ä¦ïÄúÿÿÿÿ8í®¼‡2J$e3c4067e-5e31-4118-ada4-370d9c322ff3
+s
+java:S1444"+Make this "public static count" field final(óÏ·°úÿÿÿÿ8í®¼‡2J$dd786a87-0dc7-49a4-9850-3331a72a7742
+´
+java:S1130
+"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8ó®¼‡2J$f64fcf77-5ed9-4e98-ad3c-2db92c4bb852
+r	java:S106"+Replace this use of System.out by a logger.(Çá•ùÿÿÿÿ8ô®¼‡2J$6515c8c6-feb6-433c-9448-148712004e06
+}
+java:S2209"5Change this instance-reference to a static reference.(Çá•ùÿÿÿÿ8ö®¼‡2J$6d9e27dc-4ef3-4fc5-bcfa-792aca5fa9c0
+r	java:S106"+Replace this use of System.out by a logger.(Š‹‡•ÿÿÿÿÿ8ú®¼‡2J$69f38d53-c58d-4e0c-bf31-60febce77eef
+y
+java:S2696 "6Make the enclosing method "static" or remove this set.(Õî™Ä8û®¼‡2J$a71b42de-f0d1-475d-99c4-78bdfe8ac195
+x
+java:S2209 "5Change this instance-reference to a static reference.(Õî™Ä8û®¼‡2J$ab44bf78-2745-4df9-b488-30cf42577bfd

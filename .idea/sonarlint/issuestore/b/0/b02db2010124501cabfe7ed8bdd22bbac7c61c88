@@ -1,0 +1,13 @@
+
+n	java:S101."MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŞàôÀûÿÿÿÿ8Í¸Û¦’1
+@
+java:S16593"#Declare "distY" on a separate line.(å³Ä‡8Ú¸Û¦’1
+f
+java:S33581"DExtract this nested ternary operation into an independent statement.(‘ÖÎúùÿÿÿÿ8Ú¸Û¦’1
+f
+java:S33582"DExtract this nested ternary operation into an independent statement.(åÑÄ°şÿÿÿÿ8Ú¸Û¦’1
+g
+java:S1659U"EDeclare "numZeros" and all following declarations on a separate line.(ÖÍøÿÿÿÿ8Û¸Û¦’1
+U	java:S106V"9Replace this use of System.out or System.err by a logger.(Ø’Ù¥8Û¸Û¦’1
+C
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙ8Ü¸Û¦’1

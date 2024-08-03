@@ -1,0 +1,23 @@
+
+r
+java:S3740#"/Provide the parametrized type for this generic.(èâ«ò8í¥’†2J$eeda7aab-8eed-4ed5-bfcd-3c5509331d44
+r
+java:S3740#"/Provide the parametrized type for this generic.(èâ«ò8î¥’†2J$f54f0067-3f1f-4867-b163-438e6d090f66
+r
+java:S3740'"/Provide the parametrized type for this generic.(£«Òó8î¥’†2J$93277e3f-0c47-487f-afe2-d4446a108bd8
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ü¾ô8ï¥’†2J$e5684655-8490-44df-9563-a562afbcda49
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(é‹·ãüÿÿÿÿ8ê¦’†2J$15bf89a9-397d-4fe1-93b4-fe3d2f3cd6c7
+r	java:S106"+Replace this use of System.out by a logger.(Ï³Íşıÿÿÿÿ8ë¦’†2J$6a1e8dac-4533-4c5c-aafd-ce18022c90f9
+r	java:S106"+Replace this use of System.out by a logger.(ªÓ¼áşÿÿÿÿ8ë¦’†2J$9bee4e2e-f84f-4639-a849-a8ba887a1f0b
+t
+java:S1481U",Remove this unused "zeroArr" local variable.(à¿”üÿÿÿÿ8í¦’†2J$3288e028-7aac-49e5-8da3-03f2b1aedc36
+o
+java:S1125Y"'Remove the unnecessary boolean literal.(ú§ÚÛúÿÿÿÿ8í¦’†2J$41417d58-bb23-442e-940a-c4c7872814db
+o
+java:S1125Y"'Remove the unnecessary boolean literal.(ú§ÚÛúÿÿÿÿ8í¦’†2J$3901d65a-e44b-4b8d-811e-938e969d1cf4
+J
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8öŒ£§Š2
+L
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8öŒ£§Š2
+L
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8öŒ£§Š2

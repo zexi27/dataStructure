@@ -1,0 +1,10 @@
+
+”	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ªÅ¾Çüÿÿÿÿ8¡·Ú¢‹2J$3b90cab8-6ca8-4642-9c16-8b963b59f8a3
+r	java:S106"+Replace this use of System.out by a logger.(ß©ßÜøÿÿÿÿ8¯·Ú¢‹2J$aa93ca8e-4078-46cc-a77a-fef593abf0b7
+ƒ	java:S125$"<This block of commented-out lines of code should be removed.(Û“¥Þûÿÿÿÿ8ÒØÝ¢‹2J$a3ce4bd3-92f0-41f8-80d1-a6db6137c0be
+y
+java:S1128"6Remove this unused import 'com.zlq.common.ArrayUtils'.(šÄŸÛ8±·Ú¢‹2J$0d6917f1-8a06-47cd-aefa-11d26bd789cf
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8±·Ú¢‹2J$d8d61678-359f-4ecd-a28a-b3e061ce0fcd
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8±·Ú¢‹2J$9b577ed4-f2a4-49d2-b109-31658c00970a

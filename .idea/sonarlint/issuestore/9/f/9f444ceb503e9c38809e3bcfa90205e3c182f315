@@ -1,0 +1,9 @@
+
+¦
+java:S1192"^Define a constant instead of duplicating this literal "å†œå¤«å±±æ³‰,æ€¡å®,ç™¾å²å±±" 6 times.(Ç©Îüúÿÿÿÿ8úÙ‡ˆÿ1J$9e0dd8a2-8867-41c1-80ec-3a8ad06f5ab1
+m	java:S106$"+Replace this use of System.out by a logger.(¨”Ğÿ8Ú‡ˆÿ1J$8cab0de9-4fcf-4b39-ab38-1c5c6b00f1c8
+r	java:S106%"+Replace this use of System.out by a logger.(Íô¸—ùÿÿÿÿ8Ú‡ˆÿ1J$147eb509-4a5f-49b4-a64b-acaad604ae7d
+m	java:S1063"+Replace this use of System.out by a logger.(Õá˜Î8Ú‡ˆÿ1J$7770f56b-c8db-4774-b64a-41f23b8f66b6
+r	java:S1066"+Replace this use of System.out by a logger.(Óˆ¢Ëøÿÿÿÿ8Ú‡ˆÿ1J$d307ed1c-f5ae-4897-a14d-fc2f0278f078
+v
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8“Ú‡ˆÿ1J$8e4f0405-0ab2-463f-b955-db4607c3c307

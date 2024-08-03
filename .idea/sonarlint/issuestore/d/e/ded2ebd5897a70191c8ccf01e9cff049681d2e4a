@@ -1,0 +1,19 @@
+
+ˆ	java:S1123"FDefine and throw a dedicated exception instead of using a generic one.(³Õí†8¾Ä³ğ…2J$6762adc1-8b3d-438d-bcaa-417bb136739c
+	java:S1127"FDefine and throw a dedicated exception instead of using a generic one.(ÙÆ‰»şÿÿÿÿ8¿Ä³ğ…2J$c540d710-6f68-4afd-ba99-bc3a56b57332
+œ
+java:S2293#"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÿ•‹ù8ÀÄ³ğ…2J$2c6450f6-d467-40b5-a6b5-d79525212814
+x
+java:S2209"5Change this instance-reference to a static reference.(Ó¶µ²8ÆÄ³ğ…2J$0f3638e9-6520-428e-94a1-1675991fa088
+x
+java:S2209"5Change this instance-reference to a static reference.(î„°ú8ÇÄ³ğ…2J$c517c1f9-5b87-4d39-8001-12857e46ad22
+I
+java:S1874+",Remove this use of "stop"; it is deprecated.(Áñë›8Êõ™ø…2
+l	java:S106,"+Replace this use of System.out by a logger.(’óÏl8ÊÄ³ğ…2J$e6bea92f-4639-4d64-821d-c63bd75251e5
+¯
+java:S11303"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(³Õí†8ËÄ³ğ…2J$f51f5669-85b2-41b0-8eb1-2d905f2ba9dc
+r	java:S1064"+Replace this use of System.out by a logger.(¯ûÿÿÿÿ8ËÄ³ğ…2J$a13c3041-f9f1-4d3f-a556-6214382679f8
+´
+java:S11307"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙÆ‰»şÿÿÿÿ8¥µğ…2J$447b5342-505e-4a9d-887e-e864fe17bb83
+r	java:S1068"+Replace this use of System.out by a logger.(œú¯Øùÿÿÿÿ8ËÄ³ğ…2J$a5ecb863-855e-42e0-bd6e-bec00dca90fa
+r	java:S106<"+Replace this use of System.out by a logger.(Ï›¥éşÿÿÿÿ8±ö´ğ…2J$becd12ac-e821-4b74-af44-f810efa8378c

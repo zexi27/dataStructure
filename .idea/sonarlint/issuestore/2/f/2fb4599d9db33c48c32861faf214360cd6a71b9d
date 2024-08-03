@@ -1,0 +1,12 @@
+
+	java:S101I"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(û¨ê©8Ìâè—2J$1e62f610-de68-419e-a7a7-6d403d232c1c
+‡
+java:S2184’"CCast one of the operands of this subtraction operation to a "long".(¨´ÿø8Íâè—2J$fe2e1a50-bb0b-4dac-9b50-3123bb49aa2e
+Œ
+java:S2184“"CCast one of the operands of this subtraction operation to a "long".(±ËÛ¡ûÿÿÿÿ8Íâè—2J$ebd651ce-0873-4ad3-bf46-ad2f0cfbd84f
+œ	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ğ›Õï8Îâè—2J$6259abf8-fea5-4bcc-b143-5e242a2d7fc6
+r	java:S106N"+Replace this use of System.out by a logger.(¸šñÙüÿÿÿÿ8æâè—2J$66b5d06c-c411-492a-870b-0dbc67c5dbfb
+x
+java:S1128	"0Remove this unused import 'java.util.Map.Entry'.(±şê¾úÿÿÿÿ8·œê—2J$97c8c0de-c76d-4f9d-80ad-2496ccb78c4c
+S
+java:S1144^"1Remove this unused private "getRelateCnt" method.(ºšÛÿÿÿÿÿ8£îë—2

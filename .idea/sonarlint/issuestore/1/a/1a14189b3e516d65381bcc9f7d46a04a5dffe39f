@@ -1,0 +1,10 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ø¨®8º³˜İˆ2J$1ab50b6a-c149-4bf4-93b4-d921ed0c6dc8
+r	java:S106#"+Replace this use of System.out by a logger.(êÜùãøÿÿÿÿ8Ÿ´˜İˆ2J$fd2124cf-9e19-48cd-9508-0b02d8e397dd
+m	java:S106%"+Replace this use of System.out by a logger.(ç¡½«8Ÿ´˜İˆ2J$dc72d607-ed32-4156-8191-629863bddb12
+
+java:S1659Z"MDeclare "minCriticalIndex" and all following declarations on a separate line.(„À“¦8¡´˜İˆ2J$e120ee1f-2710-4e90-9dd2-7ccc9e4b94c4
+‰
+java:S1126p"AReplace this if-then-else statement by a single return statement.(¯¾¬ûÿÿÿÿ8¢´˜İˆ2J$fc132873-e490-49f3-a540-48291e0883a8
+r
+java:S1659x"*Declare "emptyBottles" on a separate line.(æÇ˜úıÿÿÿÿ8¢´˜İˆ2J$b92f61a3-9650-4bf3-b9a5-52b05c88b19a

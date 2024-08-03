@@ -1,0 +1,11 @@
+
+i
+java:S1192"GDefine a constant instead of duplicating this literal "Hello " 4 times.(½›ªìüÿÿÿÿ8šî¤“1
+i
+java:S1192"GDefine a constant instead of duplicating this literal "World!" 4 times.(½›ªìüÿÿÿÿ8šî¤“1
+s
+java:S4276"WRefactor this code to use the more specialised Functional Interface 'BinaryOperator<T>'(–»Ì8¸¸î¤“1
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Íù‡”ÿÿÿÿÿ8§î¤“1
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(Íù‡”ÿÿÿÿÿ8ªî¤“1
+Z	java:S106%"9Replace this use of System.out or System.err by a logger.(Íù‡”ÿÿÿÿÿ8«î¤“1
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(Íù‡”ÿÿÿÿÿ8¬î¤“1

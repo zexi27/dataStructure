@@ -1,0 +1,12 @@
+
+n	java:S135R"YReduce the total number of break and continue statements in this loop to use at most one.(Ááöµ
+f	java:S117j"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Þ­«
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(öÃßÀ
+c
+java:S3824C"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(ºâ›©ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¤ß÷ßûÿÿÿÿ
+h
+java:S3776N"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(ª»Ô¢
+:
+java:S1659U"Declare "r" on a separate line.(»¹¶¬øÿÿÿÿ
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(×Æáî

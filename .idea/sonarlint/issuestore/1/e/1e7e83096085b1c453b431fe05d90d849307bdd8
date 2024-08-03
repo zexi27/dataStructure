@@ -1,0 +1,11 @@
+
+”	java:S101:"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(È†±Ñúÿÿÿÿ8âìª„‰2J$b1f4f269-c183-4697-a2d4-52d62d1514e6
+g
+java:S1659="Declare "k" on a separate line.(Ó™âÜùÿÿÿÿ8¶íª„‰2J$92e2ce9f-3d28-4faf-b335-e65921bf17e4
+r	java:S106>"+Replace this use of System.out by a logger.(šî½Èþÿÿÿÿ8·íª„‰2J$a36e6629-c7aa-4b33-9c20-d093f81df8d5
+d
+java:S1116B"Remove this empty statement.(ˆŽÃÛûÿÿÿÿ8èÆ¯„‰2J$dcb5accb-0cad-4826-9da7-239fe54e8e2c
+p
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8®Ú­„‰2J$85faabfb-6e16-453f-8613-9333d325c2d5
+r
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤þÿÿÿÿ8®Ú­„‰2J$3d73e336-0a4d-44a2-a312-058f80b68714

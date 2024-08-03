@@ -1,0 +1,10 @@
+
+	java:S1015"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(€¢‹Ÿ8±ÉÚè2J$081af567-2ab2-468a-8c69-38d88957e9a3
+l	java:S106@"+Replace this use of System.out by a logger.(á‹‡Y8±ËÚè2J$41effc43-f9e9-41e2-9abf-cea5f58b2bf7
+r	java:S106A"+Replace this use of System.out by a logger.(¥±¬õøÿÿÿÿ8±ËÚè2J$feb7c28c-47b3-4134-a8ad-841267c1985d
+a
+java:S1659b"Declare "l" on a separate line.(–¿F8´ËÚè2J$19ba3bc0-4f58-4daf-99b1-382613fa78ee
+a
+java:S1659{"Declare "l" on a separate line.(–¿F8·ËÚè2J$0012eae4-32c6-4084-828c-8956651e7fae
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8¸ËÚè2J$3fa77989-7c6f-424c-bc33-1986ae3d43ee

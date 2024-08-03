@@ -1,0 +1,18 @@
+
+q
+java:S3008
+"TRename this field "save_hook" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ„ş‹8óÓç‡2
+L	java:S106"+Replace this use of System.out by a logger.(¿ôƒ—şÿÿÿÿ8úÓç‡2
+O
+java:S1113"-Do not override the Object.finalize() method.(­§óùÿÿÿÿ8üÓç‡2
+H
+java:S1174"&Make this finalize() method protected.(­§óùÿÿÿÿ8üÓç‡2
+G	java:S106"+Replace this use of System.out by a logger.(İºíÆ8ıÓç‡2
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(Î®¨ï8şÓç‡2
+q
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8€Ôç‡2
+G	java:S106#"+Replace this use of System.out by a logger.(ı‰û™8Ôç‡2
+q
+java:S1215("TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8Ôç‡2
+G	java:S106."+Replace this use of System.out by a logger.(Ñ–«Ù8Ôç‡2

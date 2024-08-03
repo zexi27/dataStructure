@@ -1,0 +1,10 @@
+
+i	java:S101-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(º¢Ú”8ñÇ Ó¯1
+W	java:S125/"<This block of commented-out lines of code should be removed.(šê×M8«È Ó¯1
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(¼ÇÅŸ8­È Ó¯1
+A
+java:S1659:"Declare "r" on a separate line.(à¡ÉÏüÿÿÿÿ8¯È Ó¯1
+N
+java:S1481O",Remove this unused "wordSet" local variable.(¾¿——üÿÿÿÿ8µÈ Ó¯1
+<
+java:S1659_"Declare "r" on a separate line.(Ã×–¯8·È Ó¯1

@@ -1,0 +1,9 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(«ÃÉ²ùÿÿÿÿ8ƒÀ Ó¯1
+X	java:S125"<This block of commented-out lines of code should be removed.(˜þÜ¡8ªÆ Ó¯1
+G	java:S106"+Replace this use of System.out by a logger.(€Ö‚ë8±Æ Ó¯1
+n
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(Ø•¡s8·Æ Ó¯1
+e
+java:S53611"HReplace this call to "replaceAll()" by a call to the "replace()" method.(²¶”«8ñÆ Ó¯1
+]	java:S1259"<This block of commented-out lines of code should be removed.(ÿ¥Ù¦üÿÿÿÿ8öÆ Ó¯1

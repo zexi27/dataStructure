@@ -1,0 +1,12 @@
+
+	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8ïÅª›…2J$f8443656-6c42-4956-aa73-69d677366f5d
+œ	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(—Âßê8øÅª›…2J$34879deb-7f6c-4409-82f5-ed8fd58f5938
+~	java:S125
+"<This block of commented-out lines of code should be removed.(¥Á¨ñ8úÅª›…2J$20964e04-b450-4e66-a4bb-39581d9a78a1
+X	java:S125""<This block of commented-out lines of code should be removed.(­Üğì8‰Æª¢2
+m	java:S106'"+Replace this use of System.out by a logger.(·ı™¨8ıÅª›…2J$7c1d86da-e205-40d5-855b-17bdbf8da134
+¡
+java:S2142*"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ıÅª›…2J$f74cbbaa-682a-4604-94d8-5618bae1517f
+‹
+java:S2276)"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ8şÅª›…2J$14c4e4c2-e5f9-4dc7-a448-808eaa32a7ed
+m	java:S106."+Replace this use of System.out by a logger.(»ÃÇ¶8ÿÅª›…2J$7614a1a3-9e30-47a0-8729-76159cc524d5
