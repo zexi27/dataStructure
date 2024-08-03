@@ -13,6 +13,10 @@ public class ListNode {
     public ListNode  pre;
     public ListNode next;
 
+
+    public ListNode() {
+    }
+
     public ListNode(Integer val) {
         this.value = val;
     }

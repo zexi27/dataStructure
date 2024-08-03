@@ -1,7 +1,3 @@
 
-g	java:S101'"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(§Èàùøÿÿÿÿ
-P
-java:S1191"5Use classes from the Java API instead of Sun classes.(†ŞÇ›ùÿÿÿÿ
-N	java:S106*"9Replace this use of System.out or System.err by a logger.(½·Ÿ
-s
-java:S1128"XRemove this unused import 'com.sun.xml.internal.ws.message.source.PayloadSourceMessage'.(†ŞÇ›ùÿÿÿÿ
+g	java:S101&"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(§Èàùøÿÿÿÿ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(½·Ÿ

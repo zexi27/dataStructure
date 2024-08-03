@@ -1,0 +1,13 @@
+
+a	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Û®¿t
+O
+java:S3516!"9Refactor this method to not always return the same value.(¿úÿ¬
+A
+java:S1481)"+Remove this unused "subSum" local variable.(¯Ê‚¿
+C	java:S108+")Either remove or fill this block of code.(ØÕ—©ýÿÿÿÿ
+M
+java:S14813"2Remove this unused "atomicInteger" local variable.(ÞŸ¢«ÿÿÿÿÿ
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(ïŸí¹
+S	java:S106="9Replace this use of System.out or System.err by a logger.(”÷Ïçùÿÿÿÿ
+I
+java:S11442".Remove this unused private "traversal" method.(‘¡Þéÿÿÿÿÿ

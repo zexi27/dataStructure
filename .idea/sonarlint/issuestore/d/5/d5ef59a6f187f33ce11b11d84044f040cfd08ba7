@@ -1,0 +1,13 @@
+
+w
+java:S3740:"/Provide the parametrized type for this generic.(úëƒÈúÿÿÿÿ8È©ÁÒ€2J$545de3a1-0f4f-4862-9393-52768819df8e
+w
+java:S3740:"/Provide the parametrized type for this generic.(úëƒÈúÿÿÿÿ8È©ÁÒ€2J$c6293795-9b81-4325-a32d-549b2c2532a3
+r
+java:S3740<"/Provide the parametrized type for this generic.(£«Òó8É©ÁÒ€2J$fe270054-1822-48ca-b0df-f4f17136b014
+”	java:S101!"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(êºÛùÿÿÿÿ8Ê©ÁÒ€2J$1b3d27a5-33a1-48b8-a27b-1b536292fb25
+r	java:S106&"+Replace this use of System.out by a logger.(‘ˆ•ìşÿÿÿÿ8æ©ÁÒ€2J$7ccff672-af73-49e4-bd50-f7500cd8d31d
+‰
+java:S1126H"AReplace this if-then-else statement by a single return statement.(ƒÕŒÿøÿÿÿÿ8è©ÁÒ€2J$2486131f-00ec-4964-83f0-ebc3382d2902
+ƒ
+java:S1128";Remove this unused import 'java.util.concurrent.Executors'.(äåÒÛÿÿÿÿÿ8ÁíÑÒ€2J$7fdc129b-ac7c-43cd-8205-128f1a313db7

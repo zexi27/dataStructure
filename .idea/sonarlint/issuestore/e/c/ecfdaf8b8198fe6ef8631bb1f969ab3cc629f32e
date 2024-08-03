@@ -1,0 +1,24 @@
+
+b	java:S101:"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.( ±ð•
+R
+java:S4973p"<Strings and Boxed types should be compared using "equals()".(¢¿Å•
+Å
+java:S1598"§This file "Day211_BalancedString.java" should be located in "com/zlq" directory, not in "/Users/liqun/IdeaProjects/dataStructurePractise/src/main/java/com/zlq/day220".(˜ôÔâ8÷¯¦ñï0
+N	java:S106L"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+J
+java:S2864N"4Iterate over the "entrySet" instead of the "keySet".(–’–¾
+5
+java:S1659U"Declare "r" on a separate line.(Òžšù
+O
+java:S2864h"4Iterate over the "entrySet" instead of the "keySet".(Ôöƒ¼ÿÿÿÿÿ
+J
+java:S2864o"4Iterate over the "entrySet" instead of the "keySet".(–’–¾
+V	java:S125v"<This block of commented-out lines of code should be removed.(÷î³¨þÿÿÿÿ
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(‡‰Þúÿÿÿÿ
+h
+java:S3776}"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(Ä™ŠÌ
+Q	java:S125|"<This block of commented-out lines of code should be removed.(‘ŸºŸ
+6
+java:S1659"Declare "r" on a separate line.(Òžšù
+O	java:S106¤"9Replace this use of System.out or System.err by a logger.(×Æáî
+O	java:S106¬"9Replace this use of System.out or System.err by a logger.(¼íÝå

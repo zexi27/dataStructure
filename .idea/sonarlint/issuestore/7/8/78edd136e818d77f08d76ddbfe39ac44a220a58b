@@ -1,0 +1,30 @@
+
+u
+java:S11040"SMake resList a static final constant or non-public and provide accessors if needed.(§Óá³ıÿÿÿÿ8¸®ÌËĞ0
+x
+java:S11041"VMake windowSize a static final constant or non-public and provide accessors if needed.(‡°Ñ°ıÿÿÿÿ8¸®ÌËĞ0
+l
+java:S11042"OMake sum a static final constant or non-public and provide accessors if needed.(†«¢„8¸®ÌËĞ0
+O
+java:S14440"-Make this "public static resList" field final(§Óá³ıÿÿÿÿ8¸®ÌËĞ0
+R
+java:S14441"0Make this "public static windowSize" field final(‡°Ñ°ıÿÿÿÿ8¹®ÌËĞ0
+F
+java:S14442")Make this "public static sum" field final(†«¢„8¹®ÌËĞ0
+i	java:S101&"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³ÓØÃ8¹®ÌËĞ0
+?
+java:S23860"Make this member "protected".(§Óá³ıÿÿÿÿ8Æ®ÌËĞ0
+]	java:S125 "<This block of commented-out lines of code should be removed.(õÉÑ³ÿÿÿÿÿ8Ê®ÌËĞ0
+U	java:S106)"9Replace this use of System.out or System.err by a logger.(ïã€›8Í®ÌËĞ0
+Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ˆ« ûÿÿÿÿ8Ï®ÌËĞ0
+U	java:S106+"9Replace this use of System.out or System.err by a logger.(üÏ™­8Ğ®ÌËĞ0
+]	java:S125,"<This block of commented-out lines of code should be removed.(õô½Ñùÿÿÿÿ8Ğ®ÌËĞ0
+A
+java:S30108"$Remove this assignment of "resList".(™ÿşå8Ó®ÌËĞ0
+I
+java:S30109"'Remove this assignment of "windowSize".(¤¯Š ÿÿÿÿÿ8Ó®ÌËĞ0
+X	java:S125<"<This block of commented-out lines of code should be removed.(É•ê¦8×®ÌËĞ0
+S
+java:S2696R"6Make the enclosing method "static" or remove this set.(ò©¢í8Ù®ÌËĞ0
+X
+java:S2696W"6Make the enclosing method "static" or remove this set.(ºóÍ½úÿÿÿÿ8Ù®ÌËĞ0

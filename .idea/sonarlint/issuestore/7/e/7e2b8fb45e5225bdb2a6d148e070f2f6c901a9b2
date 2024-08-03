@@ -1,0 +1,6 @@
+
+n	java:S101+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ñæäîøÿÿÿÿ8»À®ñï0
+\
+java:S1118+":Add a private constructor to hide the implicit public one.(ñæäîøÿÿÿÿ8ÆÀ®ñï0
+B
+java:S16592"%Declare "yxCount" on a separate line.(°Øıú8ÇÀ®ñï0

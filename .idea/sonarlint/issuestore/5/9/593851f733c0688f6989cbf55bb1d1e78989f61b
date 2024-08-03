@@ -1,0 +1,26 @@
+
+i
+java:S1104Q"SMake curNode a static final constant or non-public and provide accessors if needed.(ÏÒå·
+C
+java:S1444Q"-Make this "public static curNode" field final(ÏÒå·
+g	java:S1010"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×¥±ƒýÿÿÿÿ
+f
+java:S2259r"DA "NullPointerException" could be thrown; "target" is nullable here.(òý‰Ùúÿÿÿÿ8ò”ð·â0
+@
+java:S14818"*Remove this unused "node6" local variable.(¿Ñ¨š
+@
+java:S14819"*Remove this unused "node7" local variable.(ú¨²‹
+E
+java:S1481:"*Remove this unused "node8" local variable.(ï¼•¥ùÿÿÿÿ
+@
+java:S1481;"*Remove this unused "node9" local variable.(Áªª°
+A
+java:S1481<"+Remove this unused "node10" local variable.(‘›Þô
+A
+java:S1481="+Remove this unused "node11" local variable.(×ˆÓ¡
+M	java:S106B"9Replace this use of System.out or System.err by a logger.(Ë´†
+V	java:S125P"<This block of commented-out lines of code should be removed.(Ð¦øÓÿÿÿÿÿ
+{
+java:S2178j"fCorrect this "|" to "||" and extract the right operand to a variable if it should always be evaluated.(·õÄh
+
+java:S2178l"fCorrect this "&" to "&&" and extract the right operand to a variable if it should always be evaluated.(‰þ­¨øÿÿÿÿ

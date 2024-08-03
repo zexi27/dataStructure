@@ -1,0 +1,10 @@
+
+w
+java:S1192&"\Define a constant instead of duplicating this literal "æ‰¾ä¸åˆ°ç›¸åº”çš„ç»“æœï¼" 3 times.(ùÀóÈşÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾ÈÀ§
+P	java:S125"<This block of commented-out lines of code should be removed.(ßòŸL
+N	java:S106"9Replace this use of System.out or System.err by a logger.(§œÀº
+I
+java:S1144*".Remove this unused private "getIndex2" method.(ÁÜ¯ÿÿÿÿÿ
+I
+java:S1144;".Remove this unused private "getIndex3" method.(ŠÕ±ûÿÿÿÿ

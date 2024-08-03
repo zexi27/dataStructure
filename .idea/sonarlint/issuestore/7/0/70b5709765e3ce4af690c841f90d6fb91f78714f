@@ -1,0 +1,19 @@
+
+g	java:S1017"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÀãàŸÿÿÿÿÿ
+w
+java:S4165A"aRemove this useless assignment; "arr" already holds the assigned value along all execution paths.(¦´íï
+V	java:S125("<This block of commented-out lines of code should be removed.(ŠáË«ûÿÿÿÿ
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(²Ï‘öşÿÿÿÿ
+Q	java:S125j"<This block of commented-out lines of code should be removed.(ûùù¿
+D
+java:S1481v")Remove this unused "days" local variable.(ÊÒï¬øÿÿÿÿ
+E
+java:S1656A"/Remove or correct this useless self-assignment.(¦´íï
+E
+java:S1128"/Remove this unused import 'java.util.Calendar'.(ÿÛö´
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S1128"/Remove this unused import 'java.util.Iterator'.(¥ÍòÕ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ

@@ -1,0 +1,16 @@
+
+E
+java:S3740+"/Provide the parametrized type for this generic.(ÃÕùÅ
+t
+java:S2293Q"YReplace the type specification in this constructor call with the diamond operator ("<>").(å¾©´ûÿÿÿÿ
+k	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÿù£üÿÿÿÿ
+k	java:S117T"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†ÿù£üÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ý×“ƒþÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(õ£†þÿÿÿÿ
+M	java:S106#"9Replace this use of System.out or System.err by a logger.(¦½u
+t
+java:S3012-"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(µùœ¥ýÿÿÿÿ
+:
+java:S1659T"Declare "R" on a separate line.(†ÿù£üÿÿÿÿ
+T
+java:S1155U">Use isEmpty() to check whether the collection is empty or not.(‘™í¨

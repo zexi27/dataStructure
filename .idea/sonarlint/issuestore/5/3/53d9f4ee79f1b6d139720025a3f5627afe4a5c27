@@ -1,0 +1,16 @@
+
+g	java:S101,"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿ïü‘þÿÿÿÿ
+t
+java:S3012="YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(òË¬ñüÿÿÿÿ
+V	java:S125;"<This block of commented-out lines of code should be removed.(«˜Ö“ûÿÿÿÿ
+4
+java:S1659I"Declare "r" on a separate line.(Æ÷²6
+o
+java:S3012e"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(–ñûš
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(•“Ù¤
+6
+java:S1659"Declare "r" on a separate line.(Ã×–¯
+I
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ
+E
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ

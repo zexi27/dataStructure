@@ -38,24 +38,42 @@ Constraints:
  */
 public class Day253_ReArrangeBarCodes {
     public static void main(String[] args) {
-        int[] barcodes = {1,1,1,1,2,2,3,3};
-        System.out.println(rearrangeBarcodes(barcodes));
+//        int[] barcodes = {51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 51, 40, 83, 51, 83, 51, 83, 51, 83, 51, 83, 51, 83, 51, 83, 83, 51, 83, 83, 83, 51, 83, 83, 83, 51, 83};
+        int[] barcodes = {1,1,2};
+        System.out.println(Arrays.toString(rearrangeBarcodes(barcodes)));
     }
+
     public static int[] rearrangeBarcodes(int[] barcodes) {
-        Map<Integer,Integer> map = new HashMap<>();
-        for (int i = 0; i < barcodes.length; i++) {
-            map.put(barcodes[i],map.getOrDefault(map.get(barcodes[i]),0) + 1);
+        int length = barcodes.length;
+        if (length == 0 || length == 1) return barcodes;
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < length; i++) {
+            int barcode = barcodes[i];
+            map.put(barcode, map.getOrDefault(barcode, 0) + 1);
         }
         PriorityQueue<int[]> priorityQueue = new PriorityQueue<>((o1, o2) -> o2[1] - o1[1]);
         Iterator<Integer> iterator = map.keySet().iterator();
         while (iterator.hasNext()) {
             Integer key = iterator.next();
             Integer value = map.get(key);
-            priorityQueue.add(new int[]{key,value});
+            priorityQueue.add(new int[]{key, value});
         }
-        while (!priorityQueue.isEmpty()){
-            System.out.println(Arrays.toString(priorityQueue.poll()));
+        int[] resArr = new int[length];
+        int index = 0;
+        while (index < length) {
+            int[] maxBarcode = priorityQueue.poll();
+            int[] second = priorityQueue.poll();
+            if (second == null) {
+                for (int i = 0; i < maxBarcode[1]; i++) {
+                    resArr[index++] = maxBarcode[0];
+                }
+                break;
+            }
+            resArr[index++] = maxBarcode[0];
+            resArr[index++] = second[0];
+            if (maxBarcode[1] - 1> 0) priorityQueue.offer(new int[]{maxBarcode[0], maxBarcode[1] - 1});
+            if (second[1] - 1 > 0) priorityQueue.offer(new int[]{second[0], second[1] - 1});
         }
-        return null;
+        return resArr;
     }
 }

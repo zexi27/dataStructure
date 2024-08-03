@@ -1,0 +1,10 @@
+
+D
+java:S1066["/Merge this if statement with the enclosing one.(Çø‹4
+b	java:S1010"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Å‰û»
+V	java:S1251"<This block of commented-out lines of code should be removed.(ªûùï˚ˇˇˇˇ
+5
+java:S1659<"Declare "r" on a separate line.(√◊ñØ
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(≤ˆ©‹
+d
+java:S1126Ö"AReplace this if-then-else statement by a single return statement.(Û¨Ëå˚ˇˇˇˇ8€ä≠Ñ˝0

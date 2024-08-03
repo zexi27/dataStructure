@@ -1,0 +1,19 @@
+
+n	java:S135Z"YReduce the total number of break and continue statements in this loop to use at most one.(å¨¡¬
+g	java:S101%"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¬¦Á‚ÿÿÿÿÿ
+N	java:S106("9Replace this use of System.out or System.err by a logger.(ÄÅ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(£¤œà
+m
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ºò×¸ÿÿÿÿÿ
+:
+java:S1659G"Declare "r" on a separate line.(à¡ÉÏüÿÿÿÿ
+6
+java:S3626^"Remove this redundant jump.(¾«…üÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+F
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ
+[
+java:S1128"ERemove this unused import 'java.util.concurrent.locks.ReentrantLock'.(òªø

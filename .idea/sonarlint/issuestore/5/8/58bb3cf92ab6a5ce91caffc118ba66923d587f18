@@ -1,0 +1,8 @@
+
+i	java:S101G"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ž·„â8ª­µñï0
+F
+java:S1659J")Declare "runningCost" on a separate line.(ä´å¨8¦®µñï0
+U	java:S106M"9Replace this use of System.out or System.err by a logger.(îàê÷8¦®µñï0
+]	java:S125K"<This block of commented-out lines of code should be removed.(“×ãÔûÿÿÿÿ8§®µñï0
+e
+java:S1659Q"HDeclare "leftTourist" and all following declarations on a separate line.(‘ÿ“ 8§®µñï0

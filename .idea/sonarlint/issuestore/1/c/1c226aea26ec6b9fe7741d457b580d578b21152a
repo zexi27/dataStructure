@@ -1,0 +1,17 @@
+
+f	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ğ—
+f	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³­®À
+k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¨Éµşÿÿÿÿ
+k	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÚÓûùÿÿÿÿ
+k	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ï¼‰ÿÿÿÿÿ
+q
+java:S14886"[Immediately return this expression instead of assigning it to the temporary variable "res".(¯µ–
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(„Œ¥³ÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ¾Ôş
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Å–¶»
+N	java:S106 "9Replace this use of System.out or System.err by a logger.(ıÙÉ±
+d
+java:S1128"IRemove this unused import 'com.sun.org.apache.bcel.internal.generic.RET'.(„Œ¥³ÿÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ

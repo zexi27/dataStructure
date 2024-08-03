@@ -1,0 +1,8 @@
+
+y	java:S127O"XRefactor the code in order to not assign to this loop counter from within the loop body.(ÛüÁ‰ûÿÿÿÿ8ôß¢¯0
+b	java:S101("MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(×Ã•ß
+k
+java:S11491"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(û›şöıÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(Å‘Æı
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8‹’ñ¯0

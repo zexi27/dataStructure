@@ -1,0 +1,19 @@
+
+u	java:S135“"YReduce the total number of break and continue statements in this loop to use at most one.(Üâ«Q8«¾ñï0
+i	java:S101'"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•éîú8Ñ»ûğï0
+]	java:S125+"<This block of commented-out lines of code should be removed.(ûÈöúÿÿÿÿ8º¿ñï0
+X	java:S1257"<This block of commented-out lines of code should be removed.(“¥ ÿ8»¿ñï0
+]	java:S125d"<This block of commented-out lines of code should be removed.(†¼¿şÿÿÿÿ8Á¿ñï0
+]	java:S125r"<This block of commented-out lines of code should be removed.(ÍôÑåúÿÿÿÿ8Â¿ñï0
+V	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(¤Êîø8Ä¿ñï0
+[	java:S106Š"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ä¿ñï0
+X
+java:S1128";Remove this unused import 'javax.naming.spi.ResolveResult'.(ÔÖô¥8İ¼ûğï0
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ş¼ûğï0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Ş¼ûğï0
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Ş¼ûğï0
+O
+java:S1128"-Remove this unused import 'java.util.Random'.(èøÉ›ùÿÿÿÿ8ß¼ûğï0

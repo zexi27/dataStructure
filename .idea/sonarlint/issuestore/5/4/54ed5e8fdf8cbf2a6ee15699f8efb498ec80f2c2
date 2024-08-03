@@ -1,0 +1,12 @@
+
+t
+java:S2293_"YReplace the type specification in this constructor call with the diamond operator ("<>").(½áØÔùÿÿÿÿ
+>
+java:S1604d"(Make this anonymous inner class a lambda(…‰Á°
+b	java:S101)"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(’íÿ
+Q	java:S125+"<This block of commented-out lines of code should be removed.(‰ôµ°
+S	java:S106/"9Replace this use of System.out or System.err by a logger.(Ğü»àúÿÿÿÿ
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(µˆœÑ
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ

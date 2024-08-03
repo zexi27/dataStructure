@@ -1,0 +1,10 @@
+
+D
+java:S1604<"(Make this anonymous inner class a lambda(ëó»~8Èñ«ñï0
+n	java:S101)"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(í˜²ïøÿÿÿÿ8Èñ«ñï0
+T	java:S1062"9Replace this use of System.out or System.err by a logger.(Î´õF8ßñ«ñï0
+X	java:S125-"<This block of commented-out lines of code should be removed.(Û‡‰¶8ßñ«ñï0
+{
+java:S3012H"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(Êù‹¹ûÿÿÿÿ8äñ«ñï0
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8çñ«ñï0

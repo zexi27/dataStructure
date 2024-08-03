@@ -1,0 +1,15 @@
+
+E
+java:S1066t"/Merge this if statement with the enclosing one.(Š—°ç
+J
+java:S1066x"/Merge this if statement with the enclosing one.(Ñíù“ùÿÿÿÿ
+E
+java:S1066|"/Merge this if statement with the enclosing one.(Ç´Û
+E
+java:S1066€"/Merge this if statement with the enclosing one.(Ç¨øf
+V	java:S125"<This block of commented-out lines of code should be removed.(ï¬óùÿÿÿÿ
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(Ã¥ó‚ıÿÿÿÿ
+m
+java:S3776j"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(˜Çò·úÿÿÿÿ
+E
+java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂ
