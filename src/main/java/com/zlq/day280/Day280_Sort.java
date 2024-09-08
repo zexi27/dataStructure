@@ -24,6 +24,7 @@ public class Day280_Sort {
 		System.out.println(Arrays.toString(nums));
 	}
 
+	// 选择排序
 	public static void selectSort(int[] nums) {
 		int length = nums.length;
 		for (int i = 0; i < length; i++) {
@@ -41,6 +42,7 @@ public class Day280_Sort {
 		}
 	}
 
+	// 冒泡排序t
 	public static void bubbleSort(int[] nums) {
 		int length = nums.length;
 

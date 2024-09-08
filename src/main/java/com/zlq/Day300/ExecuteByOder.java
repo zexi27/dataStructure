@@ -64,6 +64,7 @@ public class ExecuteByOder {
     num[0][2] + num[1][2] + num[2][2] = 8
      */
 
+
 	public static int minimumPushes(String word) {
 		int[] letterIdx = new int[26];
 		for (int i = 0; i < word.length(); i++) {

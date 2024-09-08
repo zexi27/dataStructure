@@ -41,54 +41,91 @@ package com.zlq.day110;
 两种情况下，都有五个连续的 'T' 。
  */
 public class Day102_MaxConsecutiveAnswers {
-    public static void main(String[] args) {
-        String answerKey = "FFTTFFFTFFFFFTTTFFFFFTTFTFFFTTTFFTTTTTTTTFTFTFFFFTTTFFFTFFFTFTFTFTTTTTTFFTTFTTTTFFFFFFFFTFFFTTFFFTFTFFFFFFTTTTFFTTFFFFFFTTFTFFFTTFTFTFTFTTFTFFFFFFFTFTTFTTFFFTTTTFFFTFTTFFTFTTFFTTTFTTFFFFFFTTTFTFTTTTTFFTTFFTTTFFFFFTFFFTTFTTTTTTTTFTFFTTTTTTFFFTFFTTTFFTFTFTTFTTFTTFTFFFTTFTFFTTTTTFTTTTFTFFFFTTTTFFFFTTTTTTFFFFTFFTTFFFFFFFTTTTTTFFFTFFTTFFTFFTTFFTTFTFTFFFTTTTFFTTFFTFFTTFFTTFFFTFFFTFTTFFTTTFTFFFTTFFFFFTTTTFFFFTTTFTFTFTTTFTFTFTFTTFFTFTTFFTTTTFFFFTFFFFFTTFFFTTTFFTTFTFFFFFTTTFTTTTFTFFTTFTTFFTTFTFTFFFFTTFTFTFTTFFTTTTTFTFFFTTFTFFTTTFTFFFTFTTTTFFTFTTFFFFTFTTFFTTTFFTFFFTFFFTFTFTTTTTTTFTTFTTTFFTTTTTFTTFFFFFFFTFTTTTTFTFFTFFFFTFTTTFFTFFTTTTTFTFTFTFTTTTFTTTTFTFTFTTFFFTTTFTTFFFFFTFFFTTFTTFFFTFFFFFFFTTTFTTFTTTTFTTFFTFFTFTFTFFTTTTFTTTFFTTFTTFFTTTFFFFTTFTFFTFFFTFFTFFFFFTTFTTTFTTTTFTTFFTFFFTTFTTTTTTTTTTFTFTFTTFFFTTFTTFTFFTTFFTTTTFTTTFTTTFTTFFFTFTFFFTFTFFTTFFFTTTTTFTFFFTTFFFFFFFTFFTFFFFFFTTTFTTTFFTTFTTTFFTTFTFTTFFFTTFFTTFTTTTTFTTTTFFFFFTTTTFFFFTTFFTFTFTTFFTFFFFFTFFFTFTFTFTTFFFTFTFTFFTTFFFTFTTFTTTFTTTTFTTTTFTTFFFFFFTFFTTTFFTFFTFTFFTTTFTFFFTFTFFFFTFFTFFFFFFTTTTFTFFTTTFTTFFTFFFFTFTTTTFFTFFFFFFFTFTFTTFFFFFTFFFTTFFFTTTFTFFFFFFFFFFTTTTTFTTTFTTTFTTFTTFTTFFTTFFTTTTTFFFFFFTTFFFFFTTFFFFFTFTTTFFFTFFFTFFTTFTFFFTTFFTFTFTFFFFTTTTFTFFFFTFTTTTTTFFTFTTTTTFTFFFFFFTFTTTFFTFTTFFTTTFFTTTFTTFFFFTTTFFFTFTTTTFFTTFTFTTTFTFTTTFTFTTFTTTFTFFFTTFFTFTFFFFTTFFFFTTTFFFFFTFTTFTFTFTFTFFFFTTTTTTTTTFTTTFFFTFTTTTFTFTFFFTFTTFTTTTTFTTTTFTFFFTTTFFTFFFFFFFFTTFFFFFFTTFTTFTFTTFTFTTTFFTTFFTTFFTFTTFFTFTFTFTTFFFFTTTFTFTFTFTTTFFTTFFFTTFTFTFFTFFTTFTFFTTTTFFFTTFFFFTFFTFTFFTFTTTFTTTTTTFTFTFFFTFTTTFFTTFTFTTFTFTFTTFFFTTFFTFTFFTTTFTTTFFFFTTFFFFTFTFFTFTTFFTTFTFTTFFFFTTTTTFTFTTFTTTFTTFFFFFFTTTTTTFTTTTFTFTFFTFFFTTTTTFTFFTTTTTFFFFTFFTFFFTTFFTTFTFTTFFFFFFTFFTTFFTTTTFFFFTTFTFTFFTTTTFFTFTFFTTFTTTTTFFFFFTTTTTFTFFFTFTTFFFFTTTFTTTTTFTTTFFTTTFTTFTFFTTFFFFTFTFFTTFFFTTTTTFFFFFFTFFFTTFTTTTFTTFFTFFTTTFFTFFFTTFFFTTTFFFFTTFTFFFFTFFTTFFTTFTFFTFTTFFTFFTFTFFFTFTTFTTTFTFTTFFFFTTTTTFFTTFTTFFTTFTFTFTTFFFFTFTTFTTTTFFFTFTTTFFFTTTFTTFTTFFTFFFFTTFTTFTFFFFTTTFFFTFFFFTTF";
-        System.out.println(maxConsecutiveAnswers(answerKey, 116));
-    }
 
-    public static int maxConsecutiveAnswers(String answerKey, int k) {
-        if (answerKey.length() <= 2) return answerKey.length();
-        int length = answerKey.length();
-        int frequency = 0;
-        int res = 0;
-        for (int i = k; i < length; i++) {
-            int l = 0, r = k + frequency;  // 定义左右指针，指定滑动窗口
-            frequency++;
-            while (r < length) {
-                int countT = 0, countF = 0;
-                for (int j = l; j <= r; j++) {
-                    if (answerKey.charAt(j) == 'T') countT++;
-                    else countF++;
-                }
-                if (countF <= k || countT <= k) res = Math.max(res, r - l + 1);
-                l++;
-                r++;
-            }
-        }
-        return res;
-    }
+	public static void main(String[] args) {
+		String s = "leetcode";
+		int k = 2;
+		System.out.println(getLucky(s, k));
+	}
+
+	public static int maxConsecutiveAnswers(String answerKey, int k) {
+		if (answerKey.length() <= 1) {
+			return answerKey.length();
+		}
+		if (answerKey.length() == k) {
+			return k;
+		}
+		return Math.max(maxT(answerKey, k), maxF(answerKey, k));
+	}
+
+	public static int maxT(String answerKey, int k) {
+		int l = 0, r = 0;
+		int res = 0;
+		int tCnt = 0, fCnt = 0;
+		int length = answerKey.length();
+		while (r < length) {
+			if (answerKey.charAt(r) == 'F') {
+				fCnt++;
+			} else {
+				tCnt++;
+			}
+			while (fCnt > k) {
+				if (answerKey.charAt(l) == 'F') {
+					fCnt--;
+				} else {
+					tCnt--;
+				}
+				l++;
+			}
+			res = Math.max(r - l + 1, res);
+			r++;
+		}
+		return res;
+	}
 
 
-    static String s;
-    static int n, k;
+	public static int maxF(String answerKey, int k) {
+		int l = 0, r = 0;
+		int res = 0;
+		int tCnt = 0, fCnt = 0;
+		int length = answerKey.length();
+		while (r < length) {
+			if (answerKey.charAt(r) == 'F') {
+				fCnt++;
+			} else {
+				tCnt++;
+			}
+			while (tCnt > k) {
+				if (answerKey.charAt(l) == 'F') {
+					fCnt--;
+				} else {
+					tCnt--;
+				}
+				l++;
+			}
+			res = Math.max(res, r - l + 1);
+			r++;
+		}
+		return res;
+	}
 
-    public static int maxConsecutiveAnswers2(String answerKey, int _k) {
-        s = answerKey;
-        n = s.length();
-        k = _k;
-        return Math.max(getCnt('T'), getCnt('F'));
-    }
+	public static int getLucky(String s, int k) {
+		StringBuilder numBuilder = new StringBuilder();
+		for (int i = 0; i < s.length(); i++) {
+			numBuilder.append(s.charAt(i) - 'a' + 1);
+		}
+		String numStr = numBuilder.toString();
+		for (int i = 0; i < k; i++) {
+			numStr = String.valueOf(transform(numStr));
+		}
+		return Integer.valueOf(numStr);
+	}
 
-    static int getCnt(char c) {
-        int ans = 0;
-        for (int i = 0, j = 0, cnt = 0; i < n; i++) {
-            if (s.charAt(i) == c) cnt++;
-            while (cnt > k) {
-                if (s.charAt(j) == c) cnt--;
-                j++;
-            }
-            ans = Math.max(ans, i - j + 1);
-        }
-        return ans;
-    }
+	public static int transform(String num) {
+		int res = 0;
+		for (int i = 0; i < num.length(); i++) {
+			res += num.charAt(i) - '0';
+		}
+		return res;
+	}
 }

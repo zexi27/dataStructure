@@ -1,8 +1,10 @@
 package com.zlq.Day300;
 
-import apple.laf.JRSUIUtils.Tree;
 import com.zlq.common.TreeNode;
+import java.io.File;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -29,6 +31,15 @@ public class Day292_IsSubTree {
 		int k = 2;
 		System.out.println(kthDistinct(arr, k));
 
+		char[] s = {'h', 'e', 'l', 'l', 'o'};
+		System.out.println(Arrays.toString(s));
+		reverseString(s);
+		System.out.println(Arrays.toString(s));
+		File[] files = new File[100];
+		for (int i = 0; i < 100; i++) {
+			files[i] = new File("/");
+		}
+		Arrays.sort(files);
 	}
 
 	public static boolean isSubtree(TreeNode root, TreeNode subRoot) {
@@ -118,14 +129,43 @@ public class Day292_IsSubTree {
 		}
 		int curCnt = 0, idx = 0;
 		while (idx < arr.length) {
-			if (map.get(arr[idx]) == 1){
+			if (map.get(arr[idx]) == 1) {
 				curCnt++;
-				if (curCnt == k){
+				if (curCnt == k) {
 					return arr[idx];
 				}
 			}
 			idx++;
 		}
 		return "";
+	}
+
+
+	public static void reverseString(char[] s) {
+
+		reverse(s, 0, s.length - 1);
+	}
+
+	private static void reverse(char[] s, int start, int end) {
+		if (start == s.length/2) {
+			return;
+		}
+		char temp = s[end];
+		s[end] = s[start];
+		s[start] = temp;
+
+		reverse(s, start + 1, end - 1);
+	}
+
+
+	public static int addedInteger(int[] nums1, int[] nums2) {
+		int length = nums1.length;
+		int sum1 = 0,sum2 = 0;
+		for (int i = 0; i < length; i++) {
+			sum1+=nums1[i];
+			sum2+=nums2[i];
+		}
+		return (sum2 - sum1) /length;
+
 	}
 }
