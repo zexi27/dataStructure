@@ -1,0 +1,8 @@
+
+—
+java:S1488u"[Immediately return this expression instead of assigning it to the temporary variable "res".(ΊαμJ$5b523f4c-1501-4f4c-a2f1-1248ad1473e8
+	java:S101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(π™ϋJ$8de68997-402f-401f-bc6f-2dbedb5e3e9e
+v	java:S125&"<This block of commented-out lines of code should be removed.(¤ζ=J$4927e3a4-b197-4e17-a0fa-f2e7e3b346aa
+f	java:S106)"+Replace this use of System.out by a logger.(ρ­ΦJ$d1a1372f-9e8e-485c-b7fc-93a236410471
+
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(Ω¤9J$1da534e5-70b3-4fab-a67f-96833c865474

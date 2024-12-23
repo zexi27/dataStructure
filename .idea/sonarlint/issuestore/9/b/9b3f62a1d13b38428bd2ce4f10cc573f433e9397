@@ -1,0 +1,26 @@
+
+	java:S101@"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘„Çé8œğæ¥¢2J$8820c878-d09a-4426-9850-11044ec693ac
+
+java:S4973["<Strings and Boxed types should be compared using "equals()".(ëÏğˆ8ğæ¥¢2J$876f4d69-602e-43a2-ad5d-7050a9676645
+‰
+java:S2184"@Cast one of the operands of this addition operation to a "long".(ÎÄˆÇúÿÿÿÿ8Ÿğæ¥¢2J$2f9df2c0-5970-442e-84b8-00fd62002029
+m	java:S106E"+Replace this use of System.out by a logger.(·³ã³8Óğæ¥¢2J$b6bfc3de-0305-441d-852e-3962361da164
+
+java:S1659“"FDeclare "secondCnt" and all following declarations on a separate line.(¶‡¡…ùÿÿÿÿ8Øğæ¥¢2J$9fa38784-674f-4b63-901a-0102b3d9491d
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8Ùğæ¥¢2J$dfd744bc-7aaa-4ef8-9d97-41a2122dc0ab
+u
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Úğæ¥¢2J$121c9f61-a7b9-4e74-9713-1d115f794e11
+t
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8Úğæ¥¢2J$84fc1cbc-ffce-4794-8783-aca41b439f66
+v
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8Úğæ¥¢2J$41622d92-91cf-4549-b08c-93087387880b
+p
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8Úğæ¥¢2J$d7784d6b-c3ed-47d0-8657-e28a09bd5fbf
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8Úğæ¥¢2J$0c2715b5-e095-42cc-843c-972413705856
+x
+java:S1128
+"0Remove this unused import 'java.util.Map.Entry'.(±şê¾úÿÿÿÿ8Úğæ¥¢2J$6727a555-7db1-4831-9e66-cf5285615cc7
+r
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8Úğæ¥¢2J$47b89c1f-d867-4293-a428-632e1092b811

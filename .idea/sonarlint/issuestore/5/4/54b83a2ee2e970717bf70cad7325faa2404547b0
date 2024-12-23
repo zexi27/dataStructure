@@ -1,0 +1,23 @@
+
+ç	java:S101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ìÿ˛Ì¸ˇˇˇˇJ$2af76cb5-20e1-42c4-ba5b-f2f94bd6517b
+u
+java:S3516L"9Refactor this method to not always return the same value.(‘Ãê¸J$d13c1700-a9ec-4c28-a06a-9b67f8cbd7f5
+f	java:S106'"+Replace this use of System.out by a logger.(î—∂ùJ$94bf15ab-1c05-4f82-92c5-03c49440bff9
+f	java:S106("+Replace this use of System.out by a logger.(î—∂ùJ$186dd02a-be32-4f82-9833-94fc5f5981b6
+f	java:S106)"+Replace this use of System.out by a logger.(î—∂ùJ$f33f1354-2b4f-4074-bbbd-7480f5322e55
+f	java:S106-"+Replace this use of System.out by a logger.(î—∂ùJ$06b1e3d2-a47a-4cab-8546-2982947a3d47
+f	java:S106."+Replace this use of System.out by a logger.(î—∂ùJ$f828a986-5a02-414b-8c5b-a33aa7e8cfe0
+f	java:S106/"+Replace this use of System.out by a logger.(î—∂ùJ$fb355e5a-34c4-4b09-aea8-eb3bb569081b
+f	java:S1060"+Replace this use of System.out by a logger.(î—∂ùJ$34dc61af-4644-453b-a11e-f9d2187de173
+f	java:S1061"+Replace this use of System.out by a logger.(î—∂ùJ$87e33a8e-c6d4-4886-b528-21cd54399db2
+f	java:S1062"+Replace this use of System.out by a logger.(î—∂ùJ$f850d2be-fa22-43f7-b2da-6197a3e9e2be
+f	java:S1063"+Replace this use of System.out by a logger.(î—∂ùJ$b98bf592-56ca-4191-8587-60a70e8274b0
+f	java:S1064"+Replace this use of System.out by a logger.(î—∂ùJ$af2373ff-89e5-4433-9560-5af02d9f42f2
+f	java:S1065"+Replace this use of System.out by a logger.(î—∂ùJ$f69c9687-d5c2-4e5a-98a0-d7fc86c89583
+f	java:S1068"+Replace this use of System.out by a logger.(î—∂ùJ$8b5f624d-8a11-4288-a53b-65be12109dbc
+f	java:S1069"+Replace this use of System.out by a logger.(î—∂ùJ$4d3909e5-def8-4a51-b422-8a5b92b7a5e4
+f	java:S106;"+Replace this use of System.out by a logger.(î—∂ùJ$7596621f-c98b-43fb-8be9-327dbc5c573e
+f	java:S106="+Replace this use of System.out by a logger.(î—∂ùJ$3de34fe7-9e4c-4569-84c2-b7432307b5b5
+f	java:S106?"+Replace this use of System.out by a logger.(î—∂ùJ$dd579d6e-2452-46d7-9e6e-9cc7161de8ec
+w	java:S125K"<This block of commented-out lines of code should be removed.(ﬂ»¿€J$d4ede7f8-cde8-4874-aad1-5eda9d1ae921
+}	java:S125Ü"<This block of commented-out lines of code should be removed.(ºóÊÌˇˇˇˇˇJ$07a936b3-36bd-43e0-9ed5-e4e35a21da77

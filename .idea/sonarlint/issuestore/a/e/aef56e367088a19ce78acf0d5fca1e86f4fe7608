@@ -1,0 +1,9 @@
+
+r
+java:S3740"/Provide the parametrized type for this generic.(ƒµÌß8æ—ë€•2J$bbe22365-1210-4704-be76-2bd8a9d8bbce
+¶
+java:S1319W"sThe return type of this method should be an interface such as "SortedMap" rather than the implementation "TreeMap".(¬Úî´8ç—ë€•2J$cec1854f-7fb8-4a1e-9a0c-ce831c89837f
+¶
+java:S1319["nThe type of "calcTimeMap" should be an interface such as "SortedMap" rather than the implementation "TreeMap".(æöÎ ûÿÿÿÿ8ç—ë€•2J$c52fc969-4afa-4514-adf1-97ad54f9986e
+}
+java:S1117("5Rename "o" which hides the field declared at line 46.(íƒ¶Óýÿÿÿÿ8ö—ë€•2J$bfaa8058-8c13-4c7a-bf65-f43b590bb461

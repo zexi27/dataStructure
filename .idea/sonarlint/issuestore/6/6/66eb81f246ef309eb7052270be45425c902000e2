@@ -1,0 +1,20 @@
+
+¡
+java:S2293E"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ•’ùÿÿÿÿ8Úå‚ìš2J$18f3be9c-6b40-43bf-b703-665669c0ad0e
+w
+java:S1121½".Extract the assignment out of this expression.(¨»éşÿÿÿÿ8Ûå‚ìš2J$203343b1-9e1c-47f6-aeaf-5b578a054ad2
+—
+java:S1104m"TMake uglyList a static final constant or non-public and provide accessors if needed.(Öş¢î8Üå‚ìš2J$49ee73ed-74a6-4446-ac9a-a944d5d0c553
+q
+java:S1444m".Make this "public static uglyList" field final(Öş¢î8Üå‚ìš2J$ea88d967-1289-4e9e-a937-d759d3842f2d
+	java:S1015"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ß†”¨8İå‚ìš2J$5f8fd9e5-1f4e-4968-9369-72ab6bd4f015
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ÓÒÜøÿÿÿÿ8Şå‚ìš2J$7491ca7e-86cf-4a42-99fc-b9c9115d31d4
+`
+java:S2386m"Make this member "protected".(Öş¢î8Ãæ‚ìš2J$a8a80763-4bfd-449b-a8bc-dfe05f0842b9
+g
+java:S16599"Declare "n" on a separate line.(ÒÚ½’ıÿÿÿÿ8Ææ‚ìš2J$fce8c7c8-e480-42e1-b514-3f8838395399
+^
+java:S3626L"Remove this redundant jump.(ûÁİ…8Êæ‚ìš2J$725a188a-d239-4d49-b4f8-d044e4e6a65f
+q	java:S108µ")Either remove or fill this block of code.(¾Ğ¼Üşÿÿÿÿ8»³Ãìš2J$9effc4a1-8b85-4c8a-bafb-c5b5808ba611
+c
+java:S1128"ARemove this unused import 'com.zlq.day80.Day74_Construct2DArray'.(®ùêÏúÿÿÿÿ8µâŞ™¿2

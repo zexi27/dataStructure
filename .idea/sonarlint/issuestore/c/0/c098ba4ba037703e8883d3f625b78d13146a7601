@@ -1,0 +1,45 @@
+
+L
+java:S3740#"/Provide the parametrized type for this generic.(åÌİâ8ÀİŞ™¿2
+L
+java:S3740'"/Provide the parametrized type for this generic.(Õ³èø8ÀİŞ™¿2
+Q
+java:S3740/"/Provide the parametrized type for this generic.(˜’™ıÿÿÿÿ8ÀİŞ™¿2
+Q
+java:S3740/"/Provide the parametrized type for this generic.(˜’™ıÿÿÿÿ8ÀİŞ™¿2
+L
+java:S37406"/Provide the parametrized type for this generic.(¤›øú8ÁİŞ™¿2
+Q
+java:S3740@"/Provide the parametrized type for this generic.(Ìë™‹üÿÿÿÿ8ÁİŞ™¿2
+Q
+java:S3740H"/Provide the parametrized type for this generic.(î¤Ôçıÿÿÿÿ8ÁİŞ™¿2
+Q
+java:S3740H"/Provide the parametrized type for this generic.(î¤Ôçıÿÿÿÿ8ÁİŞ™¿2
+Q
+java:S3740I"/Provide the parametrized type for this generic.(çØ´ûüÿÿÿÿ8ÁİŞ™¿2
+Q
+java:S3740I"/Provide the parametrized type for this generic.(çØ´ûüÿÿÿÿ8ÁİŞ™¿2
+L
+java:S3740J"/Provide the parametrized type for this generic.(€±ŞÜ8ÁİŞ™¿2
+L
+java:S3740J"/Provide the parametrized type for this generic.(€±ŞÜ8ÁİŞ™¿2
+L
+java:S3740K"/Provide the parametrized type for this generic.(ÛİÀ8ÁİŞ™¿2
+L
+java:S3740K"/Provide the parametrized type for this generic.(ÛİÀ8ÁİŞ™¿2
+Q
+java:S3740L"/Provide the parametrized type for this generic.(Ò€€’ûÿÿÿÿ8ÁİŞ™¿2
+Q
+java:S3740L"/Provide the parametrized type for this generic.(Ò€€’ûÿÿÿÿ8ÁİŞ™¿2
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(„È÷şÿÿÿÿJ$fd4e9ee7-c99b-4ad5-bdf4-7ea11fa0af4e
+f	java:S106"+Replace this use of System.out by a logger.(Ş§ñJ$7e3930d6-db32-42b9-8bf5-6e0a839c0a5f
+w	java:S125"<This block of commented-out lines of code should be removed.(Î‘©ÏJ$b810637a-d332-410f-b60f-340e1d63903f
+k	java:S106"+Replace this use of System.out by a logger.(Ê£Á—ıÿÿÿÿJ$45a015ba-773f-4448-94e4-f04119959252
+k	java:S106"+Replace this use of System.out by a logger.(ã¿¢ÔùÿÿÿÿJ$ef4e5d13-a99a-4cee-8d19-88bf36cd2cdb
+‰	java:S100'"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ³èøJ$28f09d57-0edd-4be9-b622-2e2e0165d787
+z
+java:S11558">Use isEmpty() to check whether the collection is empty or not.(Êó‚·J$2b44dee6-0df1-494d-98d6-42629fbdd58b
+c
+java:S1481K"'Remove this unused "n4" local variable.(ÛİÀJ$ff50c505-c5ea-4291-b803-b44c5e198606
+h
+java:S1481L"'Remove this unused "n5" local variable.(Ò€€’ûÿÿÿÿJ$902d0bf2-ef80-457e-be0b-b5a2cea70268

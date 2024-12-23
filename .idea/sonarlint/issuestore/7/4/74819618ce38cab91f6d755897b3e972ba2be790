@@ -1,0 +1,12 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(—›ëÇşÿÿÿÿJ$83cf414e-493d-4d84-aded-6c6526639526
+x
+java:S4973"<Strings and Boxed types should be compared using "equals()".(©èÁàJ$ea7d19c2-9819-4e29-a73c-145f0a90e549
+‘
+java:S1149#"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ìç¼íøÿÿÿÿJ$73441d93-c3f2-434c-813a-768c30fca47a
+ 
+java:S1149("_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(ì­ŠÜúÿÿÿÿJ$3e58e4fa-4c40-43a3-886c-c589cb99cc4e
+e	java:S106"+Replace this use of System.out by a logger.(òÔ¿wJ$e74491b8-7d05-4da3-87ab-0f6254824a5f
+|	java:S125"<This block of commented-out lines of code should be removed.(ÅÉ ÎüÿÿÿÿJ$eef7a71b-a1f4-4f4a-9ef7-eb38b7a0e34f
+‚
+java:S1126-"AReplace this if-then-else statement by a single return statement.(†·Ö†üÿÿÿÿJ$6cebf8a3-f9e1-4e8b-a39f-807ffea42b1e

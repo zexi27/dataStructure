@@ -1,0 +1,11 @@
+
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¡·¥ä8Äüäµ‘2J$ec61dc85-c35a-4d4a-bbf8-0cd124684521
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ÓÒÜøÿÿÿÿ8Äüäµ‘2J$e8868c5d-362a-47fd-86b1-fffba3340cb2
+r	java:S106"+Replace this use of System.out by a logger.(ñ…şşÿÿÿÿÿ8°ıäµ‘2J$8490e446-7c7e-4022-acc9-59ca61d6415a
+p
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8´ıäµ‘2J$36694403-9143-46f5-9729-6656641a44c5
+r
+java:S1128	"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8´ıäµ‘2J$6a0c2dcc-aed5-4479-814e-26ba2c0c8580
+v
+java:S1128
+".Remove this unused import 'java.util.TreeMap'.(¨éˆèıÿÿÿÿ8´ıäµ‘2J$7490720d-e284-461a-b105-c9dc8712cee6

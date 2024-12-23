@@ -1,0 +1,12 @@
+
+ˆ	java:S101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŸŞÏìJ$543a76c0-3a8c-4497-b3bd-e6bbc86b6a72
+f
+java:S1481-"*Remove this unused "index" local variable.(ìüà·J$53fa341e-f013-4e6a-b311-72cd22aa04c2
+d
+java:S21292"#Remove this "Character" constructor(”‹ÃıÿÿÿÿJ$22fa00dc-a51f-460f-900c-2be299b62383
+‰
+java:S57382"HRemove this call to a deprecated method, it has been marked for removal.(”‹ÃıÿÿÿÿJ$660ff75f-6796-47a6-950c-47ff0c8d0294
+k	java:S106g"+Replace this use of System.out by a logger.(òıˆÿÿÿÿÿJ$61835e7f-8dd8-4ac5-8a32-b54a4b8d7374
+w	java:S125f"<This block of commented-out lines of code should be removed.(Ø£áªJ$2f9a4afa-1fa7-4f50-a079-b2a64e68c990
+b
+java:S1659ƒ"%Declare "curSize" on a separate line.(ä‘‰÷J$e7c12aeb-f06a-495d-882d-a588dd2c1205

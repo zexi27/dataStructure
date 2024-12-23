@@ -1,0 +1,17 @@
+
+k
+java:S1604R"(Make this anonymous inner class a lambda(é§»8ô»Ğ° 2J$f7dc6872-bc3d-4f22-95d8-babc80ccec38
+”	java:S1014"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ƒÃÛèûÿÿÿÿ8õ»Ğ° 2J$6158c01e-19c7-4c0d-8164-fd9b6a6d117b
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ÓÒÜøÿÿÿÿ8ö»Ğ° 2J$f80cce1b-3c30-44fb-b35b-71d635973d73
+m	java:S106H"+Replace this use of System.out by a logger.(ù˜ˆ8ïŠÒ° 2J$ef530ebf-6f11-41df-8f77-5497a6127dd6
+
+java:S2159["VRemove this call to "equals"; comparisons between unrelated types always return false.(ûßäâşÿÿÿÿ8‡¼Ğ° 2J$5bf3757c-a11f-4d26-afed-f1233ac759ff
+u
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8Š¼Ğ° 2J$67f08fd5-ae62-4010-8c7d-c81b2e190d39
+r
+java:S1128
+"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8Š¼Ğ° 2J$293469f8-5978-4d47-95bf-6f3f6b85cc62
+v
+java:S1128".Remove this unused import 'java.util.TreeMap'.(¨éˆèıÿÿÿÿ8‹¼Ğ° 2J$f74de021-a7d3-4a1e-a220-6355a3eb0c60
+p
+java:S1128".Remove this unused import 'java.util.TreeSet'.(½îB8‹¼Ğ° 2J$f41c6d1c-13f2-498d-a7b4-592acc87386c
