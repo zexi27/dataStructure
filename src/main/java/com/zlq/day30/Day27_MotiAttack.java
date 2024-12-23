@@ -1,7 +1,5 @@
 package com.zlq.day30;
 
-import com.sun.org.apache.xerces.internal.util.EntityResolverWrapper;
-
 /**
  * @ProjectName:dataStructruesPractice
  * @Package:com.zlq.day30

@@ -2,7 +2,6 @@ package com.zlq.day90;
 
 import java.util.*;
 
-import static com.sun.xml.internal.fastinfoset.util.ValueArray.MAXIMUM_CAPACITY;
 
 /**
  * @ProjectName:dataStructruesPractice

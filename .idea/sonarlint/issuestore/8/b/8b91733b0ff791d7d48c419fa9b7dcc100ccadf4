@@ -1,6 +1,6 @@
 
-g	java:S101-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùÿÓüÿÿÿÿÿ
-—
-java:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘
-W
-java:S1126I"AReplace this if-then-else statement by a single return statement.(â‘Éü
+	java:S101-"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ùÿÓüÿÿÿÿÿJ$d910d0b7-6aaf-43c2-97d4-0b5177339a9c
+½
+java:S1186."€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘J$fe3f62a6-7093-4f48-a207-df4322d54a24
+}
+java:S1126I"AReplace this if-then-else statement by a single return statement.(â‘ÉüJ$e7fa2fe0-4196-45e6-b5a5-9be7a6f4e728

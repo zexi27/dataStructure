@@ -1,7 +1,5 @@
 
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(É„‹’þÿÿÿÿ
-]	java:S125"<This block of commented-out lines of code should be removed.(›‹Âùÿÿÿÿ8¦¢àÐô0
-M	java:S106D"9Replace this use of System.out or System.err by a logger.(ŠÈÑv
-S	java:S106F"9Replace this use of System.out or System.err by a logger.(ÆÜÎºûÿÿÿÿ
-M
-java:S1128"0Remove this unused import 'javax.xml.soap.Node'.(Ñ³îù8žÇáÐô0
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(É„‹’þÿÿÿÿJ$1c550456-d605-4205-aff0-d73ae100bdfe
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(›‹Âùÿÿÿÿ8¦¢àÐô0J$3ddabda8-7d8d-4ba2-b385-ac8bb6d3ad2d
+e	java:S106C"+Replace this use of System.out by a logger.(ŠÈÑvJ$636e3d39-f5b4-4c4b-ae61-c956118cbeb3
+k	java:S106E"+Replace this use of System.out by a logger.(ÆÜÎºûÿÿÿÿJ$77f5f04d-1d74-4b6e-88a6-bcae47cb0eee

@@ -1,15 +1,15 @@
 
-E
-java:S1066t"/Merge this if statement with the enclosing one.(Š—°ç
-J
-java:S1066x"/Merge this if statement with the enclosing one.(Ñíù“ùÿÿÿÿ
-E
-java:S1066|"/Merge this if statement with the enclosing one.(Ç´Û
-E
-java:S1066€"/Merge this if statement with the enclosing one.(Ç¨øf
-V	java:S125"<This block of commented-out lines of code should be removed.(ï¬óùÿÿÿÿ
-S	java:S106c"9Replace this use of System.out or System.err by a logger.(Ã¥ó‚ıÿÿÿÿ
-m
-java:S3776j"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(˜Çò·úÿÿÿÿ
-E
-java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂ
+k
+java:S1066t"/Merge this if statement with the enclosing one.(Š—°çJ$64101bdf-d2a4-4274-ae4a-8ef38c48ce91
+p
+java:S1066x"/Merge this if statement with the enclosing one.(Ñíù“ùÿÿÿÿJ$dc51b623-477a-4b92-bd7a-4088d067d5f6
+k
+java:S1066|"/Merge this if statement with the enclosing one.(Ç´ÛJ$9be8dc47-05dc-4283-91ea-2c2b83b760dd
+k
+java:S1066€"/Merge this if statement with the enclosing one.(Ç¨øfJ$56ef3df6-4795-4eb5-b048-02b89a538492
+|	java:S125"<This block of commented-out lines of code should be removed.(ï¬óùÿÿÿÿJ$bf4340f1-19bc-4164-9e5d-491185ca122d
+k	java:S106c"+Replace this use of System.out by a logger.(Ã¥ó‚ıÿÿÿÿJ$54625cb8-3fa3-4309-a979-c5e55d8741de
+“
+java:S3776j"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(˜Çò·úÿÿÿÿJ$c193a606-1d01-4569-a5f3-8b8a4aacd5df
+k
+java:S1128"/Remove this unused import 'java.nio.file.Path'.(×²êÂJ$7b0f08ef-1c65-4e9c-a24c-653effcd4f5c

@@ -1,5 +1,6 @@
 package com.zlq.Day300;
 
+import com.zlq.common.ListNode;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -54,8 +55,16 @@ import java.util.Stack;
 public class Day296_CountWays {
 
 	public static void main(String[] args) {
-		int[] nums = {-10000,-1,0,3,10000};
-		System.out.println(Arrays.toString(sortedSquares(nums)));
+		ListNode n1 = new ListNode(18);
+		ListNode n2 = new ListNode(6);
+		ListNode n3 = new ListNode(10);
+		ListNode n4 = new ListNode(3);
+		n1.next = n2;
+		n2.next = n3;
+		n3.next = n4;
+		ListNode head = insertGreatestCommonDivisors(n1);
+		ListNode.print(head);
+
 	}
 
 	/*
@@ -229,15 +238,15 @@ public class Day296_CountWays {
 			int left = nums[p1];
 			int right = nums[p2];
 			if (Math.abs(left) < Math.abs(right)) {
-				while (p1 >= 0 && Math.abs(nums[p1]) < Math.abs(nums[p2])){
-					resArr[curIdx++] = (int) Math.pow(nums[p1--],2);
+				while (p1 >= 0 && Math.abs(nums[p1]) < Math.abs(nums[p2])) {
+					resArr[curIdx++] = (int) Math.pow(nums[p1--], 2);
 				}
-				resArr[curIdx++] = (int) Math.pow(nums[p2++],2);
-			}else {
-				while (p2 <= length - 1 && Math.abs(nums[p1]) >= Math.abs(nums[p2])){
+				resArr[curIdx++] = (int) Math.pow(nums[p2++], 2);
+			} else {
+				while (p2 <= length - 1 && Math.abs(nums[p1]) >= Math.abs(nums[p2])) {
 					resArr[curIdx++] = (int) Math.pow(nums[p2++], 2);
 				}
-				resArr[curIdx++] = (int) Math.pow(nums[p1--],2);
+				resArr[curIdx++] = (int) Math.pow(nums[p1--], 2);
 			}
 		}
 
@@ -254,6 +263,37 @@ public class Day296_CountWays {
 		}
 		return resArr;
 	}
+
+
+	public static ListNode insertGreatestCommonDivisors(ListNode head) {
+		ListNode sentinel = head;
+		Integer curVal,nextVal;
+		while (head.next != null) {
+			curVal = head.value;
+			ListNode nextNode = head.next;
+			nextVal = nextNode.value;
+			int divisors = getGreatestCommonDivisors(curVal, nextVal);
+			ListNode divisorNode = new ListNode(divisors);
+			head.next = divisorNode;
+			divisorNode.next = nextNode;
+			head = nextNode;
+		}
+		return sentinel;
+	}
+
+	public static int getGreatestCommonDivisors(int a, int b) {
+		if(a == 1 || b==1){
+			return 1;
+		}
+		while (b != 0) {
+			int temp = b;
+			b = a % b;
+			a = temp;
+		}
+		return a;
+	}
+
+
 
 }
 

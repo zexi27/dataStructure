@@ -1,6 +1,5 @@
 package com.zlq.day120;
 
-import jdk.nashorn.internal.ir.IfNode;
 
 /**
  * @ProjectName:dataStructruesPractice

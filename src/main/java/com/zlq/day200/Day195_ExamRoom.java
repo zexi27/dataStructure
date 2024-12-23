@@ -84,7 +84,7 @@ public class Day195_ExamRoom {
 
 
     public void leave(int p) {
-        set.remove(new Integer(p));
+        set.remove(p);
     }
 
 
