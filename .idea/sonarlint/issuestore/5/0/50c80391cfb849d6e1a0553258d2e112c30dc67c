@@ -1,18 +1,20 @@
 
-q
+—
 java:S3008
-"TRename this field "save_hook" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ„ş‹8óÓç‡2
-L	java:S106"+Replace this use of System.out by a logger.(¿ôƒ—şÿÿÿÿ8úÓç‡2
-O
-java:S1113"-Do not override the Object.finalize() method.(­§óùÿÿÿÿ8üÓç‡2
-H
-java:S1174"&Make this finalize() method protected.(­§óùÿÿÿÿ8üÓç‡2
-G	java:S106"+Replace this use of System.out by a logger.(İºíÆ8ıÓç‡2
-S
-java:S2696"6Make the enclosing method "static" or remove this set.(Î®¨ï8şÓç‡2
-q
-java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8€Ôç‡2
-G	java:S106#"+Replace this use of System.out by a logger.(ı‰û™8Ôç‡2
-q
-java:S1215("TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8Ôç‡2
-G	java:S106."+Replace this use of System.out by a logger.(Ñ–«Ù8Ôç‡2
+"TRename this field "save_hook" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ„ş‹8óÓç‡2J$a367bd15-ee4e-45bf-bdce-6dceaaec1872
+r	java:S106"+Replace this use of System.out by a logger.(¿ôƒ—şÿÿÿÿ8úÓç‡2J$8cbefae3-3a3a-41d0-8df3-f6900dd4caa9
+’
+java:S1874"JDon't override a deprecated method or explicitly mark it as "@Deprecated".(­§óùÿÿÿÿ8–¾¥§2J$aed3e52b-e099-41dc-a92c-2d1f2d2973b5
+u
+java:S1113"-Do not override the Object.finalize() method.(­§óùÿÿÿÿ8üÓç‡2J$bfb96c0d-d30d-44fb-a606-21a4e793cc05
+n
+java:S1174"&Make this finalize() method protected.(­§óùÿÿÿÿ8üÓç‡2J$82392c46-248c-4d99-a9de-4c3693803175
+m	java:S106"+Replace this use of System.out by a logger.(İºíÆ8ıÓç‡2J$5677268b-5a39-4c08-bcd5-86ca783e3a63
+y
+java:S2696"6Make the enclosing method "static" or remove this set.(Î®¨ï8şÓç‡2J$7ae65f91-e668-420a-ab50-adc034782fb9
+—
+java:S1215"TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8€Ôç‡2J$7f7c327b-9c63-4fe4-bcf5-60caeb111e8f
+m	java:S106#"+Replace this use of System.out by a logger.(ı‰û™8Ôç‡2J$ccd3ab8d-8b18-4cad-ae36-1871e9275a74
+—
+java:S1215("TDon't try to be smarter than the JVM, remove this call to run the garbage collector.(Ì°¬“8Ôç‡2J$957625e2-b53a-4471-b33c-302242d10d39
+m	java:S106."+Replace this use of System.out by a logger.(Ñ–«Ù8Ôç‡2J$c1d679fe-5a29-4312-ab50-d4a7e565c680

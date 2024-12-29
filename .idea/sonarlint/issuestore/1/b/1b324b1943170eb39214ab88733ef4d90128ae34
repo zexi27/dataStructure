@@ -1,0 +1,13 @@
+
+”	java:S1018"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(©þ»šùÿÿÿÿ8÷Ù‰¼¸2J$02593bb5-b66e-4be8-9197-e1a9de76e248
+m	java:S106<"+Replace this use of System.out by a logger.(¦¾ÿñ8‹Ú‰¼¸2J$58c8024a-fd92-44ff-87c6-8079af61468b
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8žÚ‰¼¸2J$91945c3c-0a58-4fb9-a6a6-36c2e3b7dbb4
+v
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8žÚ‰¼¸2J$c33c36ca-5f5c-4503-a5b5-69690e8250b6
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8žÚ‰¼¸2J$7ef92af0-e6c5-4fd6-8ba2-cdb2d3a70269
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òþÿÿÿÿ8žÚ‰¼¸2J$c7c08c61-044f-4e46-a243-f12bd68d8a27
+x
+java:S1128"0Remove this unused import 'java.util.Map.Entry'.(±þê¾úÿÿÿÿ8žÚ‰¼¸2J$924bcc42-26be-4562-a9bb-c312352bc0d5

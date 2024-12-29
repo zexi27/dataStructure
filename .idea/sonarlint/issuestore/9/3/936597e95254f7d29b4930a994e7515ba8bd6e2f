@@ -1,5 +1,3 @@
 
-g	java:S101&"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ëãâüÿÿÿÿ
-S	java:S106*"9Replace this use of System.out or System.err by a logger.(¾Ç¬şÿÿÿÿ
-Q
-java:S1128";Remove this unused import 'jdk.nashorn.internal.ir.IfNode'.(ñ¥€
+	java:S101%"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ËãâüÿÿÿÿJ$7d3a5614-9d8d-4295-88da-8c3e43348b07
+k	java:S106)"+Replace this use of System.out by a logger.(¾Ç¬şÿÿÿÿJ$7c5b9ce2-8cde-45b7-91db-d8999c099298

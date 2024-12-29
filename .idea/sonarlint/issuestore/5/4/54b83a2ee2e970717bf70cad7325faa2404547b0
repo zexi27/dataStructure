@@ -1,23 +1,23 @@
 
-ç	java:S101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ìÿ˛Ì¸ˇˇˇˇJ$c49cf0d5-827e-45b6-8d73-d53f5ee17aa7
+ç	java:S101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ìÿ˛Ì¸ˇˇˇˇJ$2af76cb5-20e1-42c4-ba5b-f2f94bd6517b
 u
-java:S3516L"9Refactor this method to not always return the same value.(‘Ãê¸J$820dcbbd-b324-4dfc-a3c2-5f1f61493af1
-f	java:S106'"+Replace this use of System.out by a logger.(î—∂ùJ$5bae6a94-6330-4d50-87c0-1af8a56ab08a
-f	java:S106("+Replace this use of System.out by a logger.(î—∂ùJ$af3ddc4a-e5ab-4086-978e-9a74c72439ff
-f	java:S106)"+Replace this use of System.out by a logger.(î—∂ùJ$4c2627fe-7c55-452d-929b-ed2dfe84f8a4
-f	java:S106-"+Replace this use of System.out by a logger.(î—∂ùJ$0e411efc-033b-43d5-b630-69884a62eb4c
-f	java:S106."+Replace this use of System.out by a logger.(î—∂ùJ$7d701153-ced3-4216-a008-feaf849c9c8d
-f	java:S106/"+Replace this use of System.out by a logger.(î—∂ùJ$55108358-529f-440f-85b6-6f1ca682083c
-f	java:S1060"+Replace this use of System.out by a logger.(î—∂ùJ$03cb57cb-e275-4da7-9226-2db5d51b772f
-f	java:S1061"+Replace this use of System.out by a logger.(î—∂ùJ$c34e672b-23c9-498e-9f4e-00d4815bce3d
-f	java:S1062"+Replace this use of System.out by a logger.(î—∂ùJ$bcd86462-fe1e-48c2-b396-cbbf5e5a921e
-f	java:S1063"+Replace this use of System.out by a logger.(î—∂ùJ$192e2876-7196-42cd-a734-7da1996facf7
-f	java:S1064"+Replace this use of System.out by a logger.(î—∂ùJ$e9201bb7-bdf7-4214-a0b8-a6c48b02aa5c
-f	java:S1065"+Replace this use of System.out by a logger.(î—∂ùJ$dae786ce-3d50-4a82-8c1e-48b9fda77428
-f	java:S1068"+Replace this use of System.out by a logger.(î—∂ùJ$66a784e1-8d4c-481b-a7cc-99496e107d02
-f	java:S1069"+Replace this use of System.out by a logger.(î—∂ùJ$c1ef6cdc-346d-480b-918d-8dd74daccf01
-f	java:S106;"+Replace this use of System.out by a logger.(î—∂ùJ$da16a97a-c3ec-4c87-a1ad-6d5a3263bcc6
-f	java:S106="+Replace this use of System.out by a logger.(î—∂ùJ$6d1fcafa-c3ca-4195-bff3-35d9ae927ce7
-f	java:S106?"+Replace this use of System.out by a logger.(î—∂ùJ$b1824d16-da84-40eb-82c0-75ae3c77d751
-w	java:S125K"<This block of commented-out lines of code should be removed.(ﬂ»¿€J$994cba0c-e3b0-4cf1-bc82-e1d6e2b7d5ef
-}	java:S125Ü"<This block of commented-out lines of code should be removed.(ºóÊÌˇˇˇˇˇJ$cbdf296e-37ff-4c4c-924d-fd2a21d4b5e2
+java:S3516L"9Refactor this method to not always return the same value.(‘Ãê¸J$d13c1700-a9ec-4c28-a06a-9b67f8cbd7f5
+f	java:S106'"+Replace this use of System.out by a logger.(î—∂ùJ$94bf15ab-1c05-4f82-92c5-03c49440bff9
+f	java:S106("+Replace this use of System.out by a logger.(î—∂ùJ$186dd02a-be32-4f82-9833-94fc5f5981b6
+f	java:S106)"+Replace this use of System.out by a logger.(î—∂ùJ$f33f1354-2b4f-4074-bbbd-7480f5322e55
+f	java:S106-"+Replace this use of System.out by a logger.(î—∂ùJ$06b1e3d2-a47a-4cab-8546-2982947a3d47
+f	java:S106."+Replace this use of System.out by a logger.(î—∂ùJ$f828a986-5a02-414b-8c5b-a33aa7e8cfe0
+f	java:S106/"+Replace this use of System.out by a logger.(î—∂ùJ$fb355e5a-34c4-4b09-aea8-eb3bb569081b
+f	java:S1060"+Replace this use of System.out by a logger.(î—∂ùJ$34dc61af-4644-453b-a11e-f9d2187de173
+f	java:S1061"+Replace this use of System.out by a logger.(î—∂ùJ$87e33a8e-c6d4-4886-b528-21cd54399db2
+f	java:S1062"+Replace this use of System.out by a logger.(î—∂ùJ$f850d2be-fa22-43f7-b2da-6197a3e9e2be
+f	java:S1063"+Replace this use of System.out by a logger.(î—∂ùJ$b98bf592-56ca-4191-8587-60a70e8274b0
+f	java:S1064"+Replace this use of System.out by a logger.(î—∂ùJ$af2373ff-89e5-4433-9560-5af02d9f42f2
+f	java:S1065"+Replace this use of System.out by a logger.(î—∂ùJ$f69c9687-d5c2-4e5a-98a0-d7fc86c89583
+f	java:S1068"+Replace this use of System.out by a logger.(î—∂ùJ$8b5f624d-8a11-4288-a53b-65be12109dbc
+f	java:S1069"+Replace this use of System.out by a logger.(î—∂ùJ$4d3909e5-def8-4a51-b422-8a5b92b7a5e4
+f	java:S106;"+Replace this use of System.out by a logger.(î—∂ùJ$7596621f-c98b-43fb-8be9-327dbc5c573e
+f	java:S106="+Replace this use of System.out by a logger.(î—∂ùJ$3de34fe7-9e4c-4569-84c2-b7432307b5b5
+f	java:S106?"+Replace this use of System.out by a logger.(î—∂ùJ$dd579d6e-2452-46d7-9e6e-9cc7161de8ec
+w	java:S125K"<This block of commented-out lines of code should be removed.(ﬂ»¿€J$d4ede7f8-cde8-4874-aad1-5eda9d1ae921
+}	java:S125Ü"<This block of commented-out lines of code should be removed.(ºóÊÌˇˇˇˇˇJ$07a936b3-36bd-43e0-9ed5-e4e35a21da77

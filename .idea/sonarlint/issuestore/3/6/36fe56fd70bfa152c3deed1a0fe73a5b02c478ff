@@ -1,15 +1,15 @@
 
-	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ñ±Üº8¯Ê“Š‘2J$8fb60f88-0d09-454c-92e2-ee3196962315
-€
-java:S2589X"8Remove this expression which always evaluates to "false"(ÅæÖ­ûÿÿÿÿ8¬Ì“Š‘2J$922ec15f-a57c-488f-84e1-139ce5828b43
+	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ñ±Üº8¯Ê“Š‘2J$0e97be52-38ec-41fe-ac9c-cfa428d3bebb
 |
-java:S2589¹"8Remove this expression which always evaluates to "false"(÷ÆÖÆ8¬Ì“Š‘2J$359800da-93d3-4264-b5e3-754de16ee83c
-r	java:S106"+Replace this use of System.out by a logger.(Å´§¡ýÿÿÿÿ8®Ì“Š‘2J$add1f67a-d942-4510-8e71-9facb49bee09
+java:S2589»"8Remove this expression which always evaluates to "false"(÷ÆÖÆ8¬Ì“Š‘2J$39f88f50-4f38-495a-aef9-597afb324c45
 €
-java:S1659k">Declare "l" and all following declarations on a separate line.(…šë%8±Ì“Š‘2J$e3ba32a2-7d79-4f13-b080-c2c1d1e86f76
+java:S2589Z"8Remove this expression which always evaluates to "false"(ÅæÖ­ûÿÿÿÿ8¬Ì“Š‘2J$a6e05fda-01ab-4124-93ef-2ebf48155400
+r	java:S106"+Replace this use of System.out by a logger.(Å´§¡ýÿÿÿÿ8®Ì“Š‘2J$50643324-50f2-40c3-915a-7b8dfd11f55f
+€
+java:S1659m">Declare "l" and all following declarations on a separate line.(…šë%8±Ì“Š‘2J$45b678a6-3b70-4b8c-881b-620a2fe65b96
 –
-java:S3776¶"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¬®öé8²Ì“Š‘2J$1a057aeb-fb34-40d6-8a66-580f7d08d18f
+java:S3776¸"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(¬®öé8²Ì“Š‘2J$88850a53-7ecb-4e82-bcbd-cf18a6d28eb3
 h
-java:S1659Æ"$Declare "remain" on a separate line.(ô€·î8³Ì“Š‘2J$196c6319-638f-4eb2-8e8c-d441bb73f138
+java:S1659È"$Declare "remain" on a separate line.(ô€·î8³Ì“Š‘2J$0386e0e0-fa30-4e31-841b-2e1c26f36739
 e
-java:S1659Œ"!Declare "min" on a separate line.(õ«›°8¶Ì“Š‘2J$ecb134e9-1949-4541-a59e-3c767767092a
+java:S1659Ž"!Declare "min" on a separate line.(õ«›°8¶Ì“Š‘2J$aa64a800-5fe9-449c-a5a0-5c156d75667f

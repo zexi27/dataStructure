@@ -117,7 +117,7 @@ public class Day306_CanCompleteCircuit {
 			char c = s.charAt(i);
 			if (!stack.isEmpty() && (stack.peek() == 'A' && c == 'B' || stack.peek() == 'C' && c == 'D')) {
 				stack.pop();
-			}else {
+			} else {
 				stack.push(c);
 			}
 		}

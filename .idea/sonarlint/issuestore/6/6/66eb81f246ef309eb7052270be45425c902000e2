@@ -16,3 +16,5 @@ java:S16599"Declare "n" on a separate line.(ÒÚ½’ıÿÿÿÿ8Ææ‚ìš2J$fce8c7c8-e480-4
 ^
 java:S3626L"Remove this redundant jump.(ûÁİ…8Êæ‚ìš2J$725a188a-d239-4d49-b4f8-d044e4e6a65f
 q	java:S108µ")Either remove or fill this block of code.(¾Ğ¼Üşÿÿÿÿ8»³Ãìš2J$9effc4a1-8b85-4c8a-bafb-c5b5808ba611
+c
+java:S1128"ARemove this unused import 'com.zlq.day80.Day74_Construct2DArray'.(®ùêÏúÿÿÿÿ8µâŞ™¿2

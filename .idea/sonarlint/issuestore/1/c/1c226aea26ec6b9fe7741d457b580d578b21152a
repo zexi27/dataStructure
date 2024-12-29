@@ -1,17 +1,11 @@
 
-f	java:S117#"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ğ—
-f	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³­®À
-k	java:S117:"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¨Éµşÿÿÿÿ
-k	java:S117H"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÚÓûùÿÿÿÿ
-k	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ï¼‰ÿÿÿÿÿ
-q
-java:S14886"[Immediately return this expression instead of assigning it to the temporary variable "res".(¯µ–
-P
-java:S1191"5Use classes from the Java API instead of Sun classes.(„Œ¥³ÿÿÿÿÿ
-N	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ¾Ôş
-N	java:S106"9Replace this use of System.out or System.err by a logger.(Å–¶»
-N	java:S106 "9Replace this use of System.out or System.err by a logger.(ıÙÉ±
-d
-java:S1128"IRemove this unused import 'com.sun.org.apache.bcel.internal.generic.RET'.(„Œ¥³ÿÿÿÿÿ
-H
-java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
+Œ	java:S117 "QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¼ğ—J$c30f9b92-7649-4cc0-8caa-6b9fdb2607e9
+Œ	java:S117'"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³­®ÀJ$fc38eaf6-c3bf-412d-a79d-cd4ba940ae10
+‘	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ö¨ÉµşÿÿÿÿJ$3dacf9b7-6273-4155-b78f-bd3fe4fc2da6
+‘	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÚÓûùÿÿÿÿJ$50bd042d-e03e-4c9a-8484-3f05160605c6
+‘	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ï¼‰ÿÿÿÿÿJ$ecbca87a-5784-42fb-96b5-25902b4ed00e
+—
+java:S14883"[Immediately return this expression instead of assigning it to the temporary variable "res".(¯µ–J$cb6460ff-92ae-4da9-bcd1-4de9988c0d34
+f	java:S106"+Replace this use of System.out by a logger.(ƒ¾ÔşJ$96a8cedf-5fd1-4fb9-98e5-c776205a1025
+f	java:S106"+Replace this use of System.out by a logger.(Å–¶»J$6b33be38-85bc-4e09-9b68-671306c2a9b9
+f	java:S106"+Replace this use of System.out by a logger.(ıÙÉ±J$d54f1fa1-21e9-4305-8a5a-ed0cfb23a7f3

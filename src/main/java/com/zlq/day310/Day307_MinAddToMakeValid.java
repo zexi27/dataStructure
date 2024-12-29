@@ -1,14 +1,9 @@
 package com.zlq.day310;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Objects;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 import java.util.Stack;
-import java.util.function.Function;
-import java.util.stream.Collectors;
 
 /**
  * @description:
@@ -48,58 +43,6 @@ Constraints:
 1 <= s.length <= 1000
 s[i] is either '(' or ')'.
  */
-
-class Student {
-
-	private String name;
-	private Integer age;
-
-	public Student(String name, Integer age) {
-		this.name = name;
-		this.age = age;
-	}
-
-	@Override
-	public String toString() {
-		return "Student{" +
-				"name='" + name + '\'' +
-				", age=" + age +
-				'}';
-	}
-
-	@Override
-	public boolean equals(Object o) {
-		if (this == o) {
-			return true;
-		}
-		if (o == null || getClass() != o.getClass()) {
-			return false;
-		}
-		Student student = (Student) o;
-		return Objects.equals(name, student.name) && Objects.equals(age, student.age);
-	}
-
-	@Override
-	public int hashCode() {
-		return Objects.hash(name, age);
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public Integer getAge() {
-		return age;
-	}
-
-	public void setAge(Integer age) {
-		this.age = age;
-	}
-}
 public class Day307_MinAddToMakeValid {
 
 
@@ -171,16 +114,76 @@ public class Day307_MinAddToMakeValid {
 		return res;
 	}
 
-	public static List<Integer> stableMountains(int[] height, int threshold) {
-		List<Integer> resList = new ArrayList<>();
-		int length = height.length;
-		for (int i = 1; i < length; i++) {
-			if (height[i - 1] > threshold) {
-				resList.add(i);
+	public static int maxUniqueSplit(String s) {
+		Set<String> seen = new HashSet<>();  // Set to store unique substrings
+		int[] res = {0};  // Array to store the maximum count of unique substrings
+
+		// Call the backtracking function to find the maximum count
+		backtrack(s, 0, seen, 0, res);
+
+		return res[0];  // Return the final result
+
+	}
+
+	private static void backtrack(String s, int start, Set<String> seen, int count, int[] res) {
+// Pruning: If the remaining characters plus current count can't exceed res, return
+		if (count + (s.length() - start) <= res[0]) {
+			return;
+		}
+
+		// Base case: If we've reached the end of the string
+		if (start == s.length()) {
+			res[0] = Math.max(res[0], count);  // Update res if necessary
+			return;
+		}
+
+		// Try all possible substrings starting from 'start'
+		for (int end = start + 1; end <= s.length(); ++end) {
+			String substring = s.substring(start, end);  // Extract substring
+
+			// If the substring is not in the set (i.e., it's unique)
+			if (!seen.contains(substring)) {
+				seen.add(substring);  // Add the substring to the set
+
+				// Recursively call backtrack with updated parameters
+				backtrack(s, end, seen, count + 1, res);
+
+				seen.remove(substring);  // Remove the substring from the set (backtracking)
 			}
 		}
-		return resList;
 	}
 
 
+	public static void main(String[] args) {
+		int[] hours = {12, 12, 30, 24, 24};
+		System.out.println(countCompleteDayPairs(hours));
+	}
+
+	public static long countCompleteDayPairs(int[] hours) {
+		Long res = 0L;
+		int length = hours.length;
+		// 将所有数对24取模，结果保存在数组
+		int[] idxArr = new int[25];
+		for (int i = 0; i < length; i++) {
+			idxArr[hours[i] % 24]++;
+		}
+
+		for (int i = 0; i < length; i++) {
+			int mod = hours[i] % 24;
+			int need;
+			if (mod == 0){
+				need = 0;
+			}else {
+				need = 24 - mod;
+			}
+
+			int needCnt = idxArr[need];
+			if (mod == need){
+				res += needCnt- 1;
+			}else {
+				res += needCnt;
+			}
+		}
+		return res / 2;
+	}
 }

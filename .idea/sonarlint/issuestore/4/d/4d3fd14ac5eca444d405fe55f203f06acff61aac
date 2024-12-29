@@ -1,5 +1,7 @@
 
-	java:S101+"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Æ¿Óë8Î’ü‚§2J$e7944e88-7285-4111-be25-6809acd19d43
+	java:S101."MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Æ¿Óë8ÂğÎ«2J$7cfb1d88-0778-473d-8c42-2137ed5886a4
 ˜
-java:S11493"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ8ä’ü‚§2J$8839b935-6fcf-4d38-9f2a-3a5ae15cf8e4
-r	java:S1060"+Replace this use of System.out by a logger.(û²öçşÿÿÿÿ8æ’ü‚§2J$0c67d336-300b-4bc2-a621-8aa2fae40ab9
+java:S11492"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÑÖÙƒıÿÿÿÿ8­ÂğÎ«2J$26ee193c-72c4-471b-b178-11ca362a4bc4
+n	java:S106Ÿ"+Replace this use of System.out by a logger.(†Æ—8³ÂğÎ«2J$36209bec-19df-4f26-8087-c72e2acc570c
+u
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8´ÂğÎ«2J$141d1172-3be3-4d5a-bd79-59b9ca815772
