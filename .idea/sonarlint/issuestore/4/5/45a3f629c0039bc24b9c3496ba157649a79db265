@@ -1,0 +1,12 @@
+
+b	java:S101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ŸŞÏì
+@
+java:S1481-"*Remove this unused "index" local variable.(ìüà·
+>
+java:S21292"#Remove this "Character" constructor(”‹Ãıÿÿÿÿ
+c
+java:S57382"HRemove this call to a deprecated method, it has been marked for removal.(”‹Ãıÿÿÿÿ
+E	java:S106g"+Replace this use of System.out by a logger.(òıˆÿÿÿÿÿ
+Q	java:S125f"<This block of commented-out lines of code should be removed.(Ø£áª
+<
+java:S1659ƒ"%Declare "curSize" on a separate line.(ä‘‰÷

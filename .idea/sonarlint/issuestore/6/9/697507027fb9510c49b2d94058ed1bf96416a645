@@ -1,0 +1,13 @@
+
+w
+java:S37405"/Provide the parametrized type for this generic.(´…„¬ÿÿÿÿÿ8—Ášÿ”2J$7cce0dfe-ae67-4f63-91c0-8498c8562a7e
+«
+java:S1488H"hImmediately return this expression instead of assigning it to the temporary variable "calculateResults".(¯í‘¼8ŒÑ¾ÿ”2J$f12ec109-26f7-4bd5-93c5-c27e9ff57af7
+r	java:S106"+Replace this use of System.out by a logger.(®ýáëûÿÿÿÿ8±Ášÿ”2J$06effa8c-d197-4780-a1cd-6de3c99da1e7
+r	java:S106"+Replace this use of System.out by a logger.(ÈÑ¸–ûÿÿÿÿ8±Ášÿ”2J$adf706b8-9560-47b6-afb5-9be75f29423b
+m	java:S106 "+Replace this use of System.out by a logger.(©¶•Ê8Ã¢Ù€•2J$ec1445fc-d940-4b6f-96ad-7191abbbf012
+i
+java:S16593"!Declare "end" on a separate line.(”Ôàìúÿÿÿÿ8´Ášÿ”2J$5b1e42f3-84d4-4ca0-ac57-fbe5a1308dcb
+~	java:S1252"<This block of commented-out lines of code should be removed.(Ë—åö8´Ášÿ”2J$02966512-a57a-4b56-b76c-5863cae18881
+~	java:S1252"<This block of commented-out lines of code should be removed.(Ë—åö8µÁšÿ”2J$242e046c-064d-46db-9560-29e7c5129e58
+~	java:S125J"<This block of commented-out lines of code should be removed.(ŒÂÔª8¸Ášÿ”2J$e1fa61d6-6104-4b60-ad27-40492990693b

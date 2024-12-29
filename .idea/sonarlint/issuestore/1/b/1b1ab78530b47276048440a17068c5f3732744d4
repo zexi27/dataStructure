@@ -1,0 +1,23 @@
+
+
+java:S1192+"HDefine a constant instead of duplicating this literal "search" 15 times.(ôèÉıÿÿÿÿ8ìğÌ”2J$0c9dc1d3-df47-4f02-b26d-7a1afeef37ef
+	java:S101("MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(…È³ó8îğÌ”2J$6d78a05e-c964-4f63-ac3e-c57a0f8dfd4d
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ÓÒÜøÿÿÿÿ8ñğÌ”2J$b0bab5d2-c04c-450e-910c-3522ef9699f7
+É
+java:S11868"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(œùş•üÿÿÿÿ8èğÌ”2J$94daa849-51cd-4d35-936d-f8dd5f64cfd5
+~	java:S125!"<This block of commented-out lines of code should be removed.(â¤Èî8êğÌ”2J$1f3755dd-8081-4365-8192-5c1542281768
+y
+java:S2696<"6Make the enclosing method "static" or remove this set.(°å8íğÌ”2J$c42f430c-fa21-494b-a80f-50d0bb4b03a0
+x
+java:S2209<"5Change this instance-reference to a static reference.(°å8íğÌ”2J$b5924aa8-373f-4449-abb5-36a4139da22f
+m	java:S106i"+Replace this use of System.out by a logger.(ôâÅ8ñğÌ”2J$5974041c-7756-47f1-9445-33e00f693eb5
+v
+java:S1128".Remove this unused import 'java.util.HashMap'.(™˜”€ùÿÿÿÿ8óğÌ”2J$891147e6-0ba6-410e-8dce-bd49e303ce2d
+p
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8óğÌ”2J$ddeac662-db3e-419a-bdfd-a5750e3771fd
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8óğÌ”2J$51966924-a322-4d04-857b-425183195867
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8óğÌ”2J$267fcd1e-d5b0-4f1d-84b8-c29ebe8e9867
+r
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8óğÌ”2J$7d24047c-40f5-49ff-bf71-8f2296a0553c

@@ -1,0 +1,15 @@
+
+ˆ	java:S101!"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÎßÜJ$ce70d628-878b-4abd-8194-9963de4b1c91
+f	java:S106$"+Replace this use of System.out by a logger.(›´²J$1cfad5a0-9352-46db-8521-000fb8ba54cc
+F
+java:S5413-")Verify that "remove()" is used correctly.(êöüë8¯¶¤§2
+[
+java:S16595"Declare "r" on a separate line.(·â±J$e8138006-b282-4f01-9034-cb5b651f129c
+[
+java:S1659>"Declare "r" on a separate line.(·â±J$e1e25464-5224-4a5f-84c4-fe613d51088c
+i
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êXJ$134e4be6-fd0c-466b-a51b-7403c58689c0
+k
+java:S1128"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿJ$b9e93235-ee63-4be7-85e6-57a731d330a2
+p
+java:S1128"4Remove this unused import 'java.util.logging.Level'.(…µÛ¶J$22b156c4-f74b-4fd3-9e01-70ec00923417

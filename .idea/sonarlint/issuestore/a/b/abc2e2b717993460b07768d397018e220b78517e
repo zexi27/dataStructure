@@ -1,0 +1,11 @@
+
+ˆ	java:S101$"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(«¹£èJ$1afe5071-94e2-4607-8aab-5963e1dbfc93
+f	java:S106'"+Replace this use of System.out by a logger.(à–¡óJ$e4384253-9091-40cd-baa9-e79aa806ce41
+[
+java:S1659,"Declare "r" on a separate line.(Ù›ÃõJ$8254f717-3736-466d-a0a9-c95a1d743467
+b
+java:S1659N"!Declare "end" on a separate line.(Û‚ÌÎøÿÿÿÿJ$a48e5f9a-9529-4058-9b0a-1312e929f423
+q
+java:S1128"5Remove this unused import 'java.time.OffsetDateTime'.(ûùˆýJ$0eb996e8-888d-424f-9868-f0f31b129962
+b
+java:S1128"&Remove this unused import 'java.util'.(Î€ŒÙJ$fd34a943-5442-458b-8e99-b427dc9312cb

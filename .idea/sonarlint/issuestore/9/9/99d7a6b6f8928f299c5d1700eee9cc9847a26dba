@@ -1,0 +1,9 @@
+
+E
+java:S3740,"/Provide the parametrized type for this generic.(Ý˜üð
+b	java:S101%"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ºªù©
+f
+java:S1149,"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ý˜üð
+<
+java:S1481'"&Remove this unused "s" local variable.(£²ð«
+@	java:S106)"+Replace this use of System.out by a logger.(ó ýÊ

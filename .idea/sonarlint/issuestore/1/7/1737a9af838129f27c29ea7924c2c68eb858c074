@@ -1,0 +1,14 @@
+
+w
+java:S3740J"/Provide the parametrized type for this generic.(ò£Ð˜ûÿÿÿÿ8Å¿ÐŠ¤2J$4ed0c1a1-b504-4ef0-9cee-7f16bee4c122
+”	java:S101>"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(“þ•‰øÿÿÿÿ8Ç¿ÐŠ¤2J$2133272f-d762-4521-90e0-cbd0cb797718
+~	java:S125+"<This block of commented-out lines of code should be removed.(ûÃ·â8à¿ÐŠ¤2J$1b871472-0c34-491a-9bbd-160f593bf33f
+m	java:S106C"+Replace this use of System.out by a logger.(ïÔÚº8â¿ÐŠ¤2J$7d59ebc8-45cb-4098-b64f-6539e742a47f
+j
+java:S3010J""Remove this assignment of "deque".(ò£Ð˜ûÿÿÿÿ8ã¿ÐŠ¤2J$fc829908-cb79-4dbd-8c4c-3ae54a3cf8a4
+i
+java:S3010K"!Remove this assignment of "size".(ë¯¿»ûÿÿÿÿ8ã¿ÐŠ¤2J$187c7763-cef6-407e-841b-6d3fdc486360
+}
+java:S2209K"5Change this instance-reference to a static reference.(ë¯¿»ûÿÿÿÿ8ä¿ÐŠ¤2J$145eafc9-e6c6-4b7d-8374-2001993e039d
+o
+java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8ë¿ÐŠ¤2J$1ed273fa-5b0b-4739-a4f8-0b5e6080609e

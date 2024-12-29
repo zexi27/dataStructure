@@ -1,0 +1,20 @@
+
+	java:S101&"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(÷†°‚8Ï‹Ä‚”2J$38655e5c-14f1-4cb1-acb6-38f4aade3ba7
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ÓÒÜøÿÿÿÿ8Ñ‹Ä‚”2J$cf307bec-6ed8-4a87-a27c-40dd45c08340
+k
+java:S1659<"#Declare "nums2" on a separate line.(¢ÙëÉùÿÿÿÿ8íÄ‚”2J$4a5acac3-ec7d-4209-b101-13ea9dce755e
+~	java:S1257"<This block of commented-out lines of code should be removed.(°È–Ş8îÄ‚”2J$c9ea8c60-f27e-4e78-9581-07e984cfd568
+~	java:S1257"<This block of commented-out lines of code should be removed.(°È–Ş8îÄ‚”2J$0aee7676-6b43-436b-9a45-2b521922f2cb
+m	java:S106="+Replace this use of System.out by a logger.(Âòı¥8ğÄ‚”2J$b6ec177b-35d8-4267-9fbb-fab12e5efaa9
+•
+java:S3776@"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(ü½Ï˜8ñÄ‚”2J$58f25529-f3c4-4352-b14b-e56e0cef60cb
+k
+java:S1659E"#Declare "index" on a separate line.(ÏçßÚúÿÿÿÿ8òÄ‚”2J$52c842d6-658b-4a9a-b2c0-92cafc63a5d1
+†
+java:S1659G"CDeclare "maxCol" and all following declarations on a separate line.(¥¶¹É8òÄ‚”2J$6b773238-4c41-436e-aaca-8ef4b331aac3
+y
+java:S1128"6Remove this unused import 'com.zlq.common.ArrayUtils'.(šÄŸÛ8øÄ‚”2J$d7c5d2af-a34f-4a12-8af9-e0cd37ced4bc
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8øÄ‚”2J$6235e267-28fb-4ac0-99fd-643f6e35981c
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ùÄ‚”2J$bba92459-5cd7-4995-ba7a-b38a44f91de7

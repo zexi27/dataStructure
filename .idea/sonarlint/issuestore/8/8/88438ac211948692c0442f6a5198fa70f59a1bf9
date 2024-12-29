@@ -1,0 +1,12 @@
+
+‡
+java:S1192-"KDefine a constant instead of duplicating this literal "zhangliqun" 3 times.(ªßÚÇJ$2696bcd2-278c-426e-9c91-4af76f83f872
+	java:S101%"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(£¦ó£şÿÿÿÿJ$8bcfd9a8-93b1-4658-b662-31a1b30c1d9e
+k	java:S106+"+Replace this use of System.out by a logger.(Ø™ßŒÿÿÿÿÿJ$a3caa88d-b25f-435e-b2cd-1811f4067ea4
+f	java:S106,"+Replace this use of System.out by a logger.(¬ÏºÿJ$8a577a7a-86a4-43fd-a31e-ee70d6bf1dd2
+f	java:S106-"+Replace this use of System.out by a logger.(ªßÚÇJ$79b49cc6-7015-4485-bc03-20e9ce657079
+k	java:S106."+Replace this use of System.out by a logger.(…Î÷ËûÿÿÿÿJ$ca435031-25f6-48a9-bde1-ba44573910ef
+k	java:S1060"+Replace this use of System.out by a logger.(¸Ï«ŠÿÿÿÿÿJ$b3582b83-175c-4a91-8c73-e1ee93b5fca5
+k	java:S1061"+Replace this use of System.out by a logger.(Ò—àŞùÿÿÿÿJ$87a9e2ec-c082-4513-bc0b-ace73fc74761
+
+java:S3358<"DExtract this nested ternary operation into an independent statement.(¢áª8J$0dd41e37-294d-4999-be35-ddffa1a76fed

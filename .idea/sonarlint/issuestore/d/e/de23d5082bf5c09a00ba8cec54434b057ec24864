@@ -1,0 +1,20 @@
+
+r
+java:S3740="/Provide the parametrized type for this generic.(¤ğïÑ8ÿ­ƒŠ’2J$aa11531d-d72b-4644-b0b6-7172412886c5
+r
+java:S3740="/Provide the parametrized type for this generic.(¤ğïÑ8¸íÄŠ’2J$9f1079fb-f291-43e7-9504-93469f88a491
+¹
+java:S1130;"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(º™Ú78ˆ®ƒŠ’2J$fcd1f718-12d7-4acc-b571-d2623357df5a
+k
+java:S1481D"(Remove this unused "ele" local variable.(ÃËÌ©8öòÃŠ’2J$976c2ff6-df1c-469e-a15d-6cbd8aa6f2c1
+r	java:S106G"+Replace this use of System.out by a logger.(âêØÿÿÿÿÿ8Œ®ƒŠ’2J$48df38f8-a807-40c3-83e2-861c5d03e25f
+m	java:S106H"+Replace this use of System.out by a logger.(ÀÜ¨8³ıƒŠ’2J$cc64d695-d777-475a-83f7-fbc8565fd50c
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ÓíÄŠ’2J$c7af854e-ca2e-482a-905e-56ce46a31085
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8ÓíÄŠ’2J$dc98189f-1f16-4660-b40c-2d0aab73893c
+„
+java:S1128"<Remove this unused import 'java.util.concurrent.DelayQueue'.(¡ƒÒ ÿÿÿÿÿ8ÓíÄŠ’2J$0a92da3c-2f5c-453c-9254-2d8f99c61aea
+
+java:S1128
+"ERemove this unused import 'java.util.concurrent.LinkedBlockingQueue'.(ŸØšüÿÿÿÿ8ÓíÄŠ’2J$57dfc133-9ff8-4fee-a67d-a4a1cefd24a9

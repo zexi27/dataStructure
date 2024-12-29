@@ -1,0 +1,19 @@
+
+j
+java:S1604"(Make this anonymous inner class a lambda(‹Í‚8ˆ÷þä’2J$60d06286-88be-44b7-b308-2333aa9379c7
+„
+java:S4973,"<Strings and Boxed types should be compared using "equals()".(«ç¤Âÿÿÿÿÿ8ÃŠÂè’2J$e1eb1881-1f4c-43e5-b106-3b57ddab940a
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ÓÒÜøÿÿÿÿ8÷þä’2J$802d2b90-1fa1-4622-9917-209b7583ffb7
+m
+java:S1481"+Remove this unused "random" local variable.(¼ÝÅf8ž÷þä’2J$4bc75f22-bc7d-4381-bba4-ff9870552868
+m	java:S106'"+Replace this use of System.out by a logger.(„íí8¡÷þä’2J$594f6438-844b-434e-b811-fc6e98602aa5
+c
+java:S2129*" Remove this "String" constructor(ç’ä×8ÏŠÂè’2J$4bf28e53-574a-42c4-b615-067bc86dc71c
+r	java:S106,"+Replace this use of System.out by a logger.(«ç¤Âÿÿÿÿÿ8ÏŠÂè’2J$a24d875a-c0f9-4fe3-821d-cff84a668441
+r	java:S106-"+Replace this use of System.out by a logger.(ŸÖ³úùÿÿÿÿ8ÊÁÂè’2J$413edcc0-28a6-48e8-ab5c-66cfa9fd04df
+l
+java:S1128")Remove this unused import 'java.io.File'.(†Ð¥Å8žºè’2J$05464524-4fac-42ea-81ff-3fbd0a9a2251
+u
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8žºè’2J$780977e0-f88f-48e3-95d9-11fcf8e9e29c
+p
+java:S1128".Remove this unused import 'java.util.TreeSet'.(½îB8žºè’2J$ffa83dc9-8011-4755-bd51-79cc1ea22465

@@ -1,0 +1,30 @@
+
+	java:S112+"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ8µïÅ¯’2J$465d1f86-1bb7-40df-8184-2f259131fe3d
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ÓÒÜøÿÿÿÿ8¶ïÅ¯’2J$51963aec-7bea-4c2e-9c2a-1a6b4396492b
+›	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Öà«8½ïÅ¯’2J$54644431-45d3-49e5-be71-392221465973
+}	java:S125"<This block of commented-out lines of code should be removed.(Ü¡ıI8¿ïÅ¯’2J$ad25f643-84bb-49b6-afb5-e17eb2e4277c
+o
+java:S1602",Remove useless curly braces around statement(™¼¦ñ8ÁïÅ¯’2J$5d18b5bd-1207-4b5d-a191-fa6602d19ae8
+m	java:S106""+Replace this use of System.out by a logger.(çÇ»ê8ÁïÅ¯’2J$eb4be34e-86b6-441f-9588-10febb603c14
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(ò×¥ãùÿÿÿÿ8ÁïÅ¯’2J$752fd694-1dc7-4fee-9598-ba1b5b5d047f
+¡
+java:S2142*"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€8ÂïÅ¯’2J$9dd4f73c-d661-4e52-9834-ac9f107e5ff9
+m	java:S106/"+Replace this use of System.out by a logger.(ÿ»¼˜8ÃïÅ¯’2J$d67795d1-f601-42cd-b247-6c0eabc96156
+m	java:S1061"+Replace this use of System.out by a logger.(¸„ì8ÃïÅ¯’2J$5c4f931f-6551-4eff-a1b2-4539e9bc670b
+m	java:S1064"+Replace this use of System.out by a logger.(œ•é‹8†¿³¹’2J$75d2ff46-4ef5-4324-be72-feaee1bcf18f
+m	java:S1066"+Replace this use of System.out by a logger.(œ•é‹8ÄØ¶¹’2J$2b5d2283-e8d6-4e60-86c4-290dbad51644
+o
+java:S1659K"'Declare "mapperCnt" on a separate line.(ØĞ³øÿÿÿÿ8÷ëåÖ’2J$3297d8d1-7d63-4503-a04b-fb0202afda12
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8É—çÖ’2J$9cca02d4-fa22-4716-9d21-8e169ce502b3
+t
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8É—çÖ’2J$e95dc276-5cf6-4e6a-b78a-ab26d10a881d
+s
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8É—çÖ’2J$4760a6d3-1189-4878-b127-f33472974b96
+r
+java:S1128"*Remove this unused import 'java.util.Map'.(¼è½Òşÿÿÿÿ8É—çÖ’2J$c17136b8-bf93-4590-bb7f-a7be8e25d85f
+x
+java:S1128"0Remove this unused import 'java.util.Map.Entry'.(±şê¾úÿÿÿÿ8É—çÖ’2J$432cfc04-2a19-4a56-ad85-20f0c295b42f
+v
+java:S1128
+".Remove this unused import 'java.util.TreeMap'.(¨éˆèıÿÿÿÿ8É—çÖ’2J$1f6cc2e1-2ec6-41e9-a723-e5959f6f7d05

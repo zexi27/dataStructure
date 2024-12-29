@@ -1,0 +1,15 @@
+
+	java:S1016"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³íÖ‡8»É«é¥2J$d502d819-5dbd-4e04-872a-87d3ce487c63
+
+java:S2184"ECast one of the operands of this subtraction operation to a "double".(¸ÿçÿÿÿÿÿ8¼É«é¥2J$64de2144-40ce-4dcf-bd9a-cdd7abf1b1c4
+a
+java:S1659;"Declare "r" on a separate line.(¨¥ï?8–Ë«é¥2J$2e63e93e-a503-43dc-befd-ba90f9b92ac6
+ƒ	java:S125:"<This block of commented-out lines of code should be removed.(ô¬µÌøÿÿÿÿ8–Ë«é¥2J$1581608e-15da-4722-bf5e-fb7a3f43a817
+ƒ	java:S125:"<This block of commented-out lines of code should be removed.(ô¬µÌøÿÿÿÿ8—Ë«é¥2J$37b309f8-739f-4c94-9fa0-bea20f5fa57d
+t
+java:S3599T",Use another way to initialize this instance.(´Û¶¬ùÿÿÿÿ8›Ë«é¥2J$7b8f344d-9831-41e7-b680-0b1f3f8a15a2
+¡
+java:S1171T"YMove the contents of this initializer to a standard constructor or to field initializers.(´Û¶¬ùÿÿÿÿ8œË«é¥2J$c25a84d4-501a-4660-a9d9-45cd1e1733c0
+•
+java:S3776["RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(ƒöß„8Ë«é¥2J$b2904cb1-283f-4815-962e-a7d116173474
+n	java:S106‡"+Replace this use of System.out by a logger.(œÚüç8¥Ë«é¥2J$c147a947-87a3-415a-9d94-370f1894c980

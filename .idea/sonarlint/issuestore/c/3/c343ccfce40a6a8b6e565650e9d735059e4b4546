@@ -1,0 +1,15 @@
+
+	java:S1017"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(öŸÌù8®€ßß2J$67cb65d3-f9f2-4379-81f0-07eb1c695c3d
+¡	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ÓÒÜøÿÿÿÿ8°€ßß2J$8b6cbb7e-e75c-4adb-a1c3-3201fbac8a19
+™
+java:S1149“"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(‰“ó…ûÿÿÿÿ8íƒßß2J$ae6f3729-3fd6-45aa-9d12-9bd9e3ba8393
+„
+java:S1126j"AReplace this if-then-else statement by a single return statement.(±¹‚ï8ñƒßß2J$0189bd68-18d2-4565-80b3-b005f46795ec
+•
+java:S3776’"RRefactor this method to reduce its Cognitive Complexity from 26 to the 15 allowed.(¶ÿ8ôƒßß2J$8d851a89-3d4a-4471-b952-66ec7cee7610
+–
+java:S3776Ü"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ë¹±8øƒßß2J$af46407e-5267-46dd-a777-e8827655fdad
+ˆ
+java:S1659ì"?Declare "p2" and all following declarations on a separate line.(ê”õàøÿÿÿÿ8ùƒßß2J$914ad171-5b5f-42c8-9b8b-05fd6601a3da
+n
+java:S1659"%Declare "nextVal" on a separate line.(áŒÀÄúÿÿÿÿ8üƒßß2J$3523b55e-145e-4447-b423-4cd03a73da23

@@ -1,0 +1,8 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Р›Хп
+W
+java:S2094"BRemove this empty class, write its code or make it an "interface".(д•Ж
+0
+java:S2326"T is not used in the class.(д•Ж
+1
+java:S2326"T1 is not used in the class.(д•Ж
