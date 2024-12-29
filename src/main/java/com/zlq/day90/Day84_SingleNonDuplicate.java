@@ -42,7 +42,7 @@ public class Day84_SingleNonDuplicate {
             if (!list.contains(nums[i])) {
                 list.add(nums[i]);
             } else {
-                list.remove(new Integer(nums[i]));
+                list.remove(nums[i]);
             }
         }
         return list.get(0);

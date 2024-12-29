@@ -14,7 +14,6 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 import java.util.stream.Collectors;
-import javafx.util.Pair;
 
 /**
  * @description:
@@ -81,7 +80,12 @@ public class Day289_MaximumImportance {
 			degree[road[0]]++;
 			degree[road[1]]++;
 		}
-		Queue<Pair<Integer, Long>> queue = new PriorityQueue<>((o1, o2) -> (int) (o2.getValue() - o1.getValue()));
+		Queue<Pair<Integer, Long>> queue = new PriorityQueue<>(new Comparator<Pair<Integer, Long>>() {
+			@Override
+			public int compare(Pair<Integer, Long> o1, Pair<Integer, Long> o2) {
+				return (int) (o2.getValue() - o1.getValue());
+			}
+		});
 
 		for (int i = 0; i < degree.length; i++) {
 			queue.add(new Pair<>(i, degree[i]));
@@ -298,4 +302,38 @@ public class Day289_MaximumImportance {
 		return new int[]{res0, res1};
 	}
 
+}
+
+class Pair<K,V>{
+	private K key;
+	private V value;
+
+	public Pair(K key, V value) {
+		this.key = key;
+		this.value = value;
+	}
+
+	public K getKey() {
+		return key;
+	}
+
+	public void setKey(K key) {
+		this.key = key;
+	}
+
+	public V getValue() {
+		return value;
+	}
+
+	public void setValue(V value) {
+		this.value = value;
+	}
+
+	@Override
+	public String toString() {
+		return "Pair{" +
+				"key=" + key +
+				", value=" + value +
+				'}';
+	}
 }

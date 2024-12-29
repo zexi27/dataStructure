@@ -64,7 +64,7 @@ public class Day83_MaxNumberOfBalloons {
                 if (frequency == 0 && i != 0) return 0;
                 curFrequency = 1;
                 removedChar = c;
-                wordSet.remove(new Character(c));
+                wordSet.remove(c);
                 continue;
             }
             if (c == removedChar) {
