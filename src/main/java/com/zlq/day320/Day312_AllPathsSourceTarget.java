@@ -56,6 +56,6 @@ graph[i][j] != i
  */
 public class Day312_AllPathsSourceTarget {
 	public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
-
+		return null;
 	}
 }
