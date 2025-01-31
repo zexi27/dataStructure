@@ -79,6 +79,10 @@ public class Day282_MaximumDetonation {
 	}
 
 	public static int maximumDetonation(int[][] bombs) {
+		return bfsMethod(bombs);
+	}
+
+	private static int bfsMethod(int[][] bombs) {
 		Map<Integer, List<Integer>> bombRelatedMap = new HashMap<>();
 		relateBomb(bombs, bombRelatedMap);
 		int max = 0;
@@ -87,6 +91,17 @@ public class Day282_MaximumDetonation {
 
 			max = Math.max(max, bfs(bombIndex, bombRelatedMap));
 
+		}
+		return max;
+	}
+
+	private static int dfsMethod(int[][] bombs) {
+		Map<Integer, List<Integer>> bombRelatedMap = new HashMap<>();
+		relateBomb(bombs, bombRelatedMap);
+		int max = 0;
+		for (Map.Entry<Integer, List<Integer>> entry : bombRelatedMap.entrySet()) {
+			Integer bombIndex = entry.getKey();
+			max = Math.max(max,getRelateCnt(bombIndex, bombRelatedMap));
 		}
 		return max;
 	}
@@ -148,4 +163,5 @@ public class Day282_MaximumDetonation {
 		long r = bomb1[2];
 		return dx * dx + dy * dy <= r * r;
 	}
+
 }
