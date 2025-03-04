@@ -61,57 +61,6 @@ votes[i][j] is an English uppercase letter.
  */
 public class Day311_RankTeams {
 
-	public static void main(String[] args) {
-		List<Person> people = new ArrayList<>();
-		people.add(new Person("Alice", 30));
-		people.add(new Person("Bob", 25));
-		people.add(new Person("Charlie", 35));
-
-		// 排序
-		Collections.sort(people);
-
-		// 打印排序后的结果
-		System.out.println("Sorted list:");
-		for (Person person : people) {
-			System.out.println(person);
-		}
-
-		// 添加新元素
-		people.add(new Person("David", 28)); // 添加一个新的人
-
-		// 打印未排序的列表
-		System.out.println("\nAfter adding a new person:");
-		for (Person person : people) {
-			System.out.println(person);
-		}
-
-		// 重新排序
-		Collections.sort(people);
-
-		// 打印重新排序后的结果
-		System.out.println("\nRe-sorted list:");
-		for (Person person : people) {
-			System.out.println(person);
-		}
-
-
-		System.out.println("\nAfter update a person:");
-
-		updatePerson(people);
-		for (Person person : people) {
-			System.out.println(person);
-		}
-
-	}
-
-	public static void updatePerson(List<Person> people) {
-		for (Person person : people) {
-			if (person.getAge() == 35) {
-				person.setName("Lily");
-			}
-		}
-	}
-
 	public static String rankTeams(String[] votes) {
 		// 构建投票索引,key：team字符，value：key-第几位，value-几张票
 		Map<Character, int[] > teamScoreMap = new HashMap<>();
