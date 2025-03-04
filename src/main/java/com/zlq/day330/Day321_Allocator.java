@@ -1,5 +1,6 @@
 package com.zlq.day330;
 
+import com.zlq.common.MethodInvoker;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -64,27 +65,11 @@ loc.freeMemory(7); // 释放 mID 为 7 的所有内存单元。内存数组保�
 public class Day321_Allocator {
 
 	public static void main(String[] args) {
-		Day321_Allocator allocator = new Day321_Allocator(10);
-		System.out.println(allocator.allocate(1,1));
-		System.out.println(allocator.allocate(1,2));
-		System.out.println(allocator.allocate(1,3));
-		System.out.println(allocator.freeMemory(2));
-		System.out.println(allocator.allocate(3,4));
-		System.out.println(allocator.allocate(1,1));
-		System.out.println(allocator.allocate(1,1));
-		System.out.println(allocator.freeMemory(1));
-		System.out.println(allocator.allocate(10,2));
-		System.out.println(allocator.freeMemory(7));
 
-//		Day321_Allocator allocator = new Day321_Allocator(5);
-//		System.out.println(allocator.freeMemory(4));
-//		System.out.println(allocator.allocate(9,5));
-//		System.out.println(allocator.allocate(5,8));
-//		System.out.println(allocator.allocate(4,8));
-//		System.out.println(allocator.allocate(3,2));
-//		System.out.println(allocator.freeMemory(6));
-//		System.out.println(allocator.allocate(9,9));
-//		System.out.println(allocator.freeMemory(6));
+		String methods = "[\"Allocator\",\"allocate\",\"allocate\",\"allocate\",\"allocate\",\"freeMemory\",\"freeMemory\",\"freeMemory\",\"allocate\",\"allocate\",\"allocate\",\"allocate\",\"freeMemory\",\"freeMemory\",\"freeMemory\",\"freeMemory\",\"freeMemory\",\"freeMemory\",\"freeMemory\",\"allocate\",\"freeMemory\",\"freeMemory\",\"allocate\",\"freeMemory\",\"allocate\",\"allocate\",\"freeMemory\",\"freeMemory\",\"freeMemory\",\"allocate\",\"allocate\",\"allocate\",\"allocate\",\"freeMemory\",\"allocate\",\"freeMemory\",\"freeMemory\",\"allocate\",\"allocate\",\"allocate\",\"allocate\",\"allocate\",\"allocate\",\"allocate\",\"freeMemory\",\"freeMemory\",\"freeMemory\",\"freeMemory\"]";
+		String params = "[[50],[12,6],[28,16],[17,23],[50,23],[6],[10],[10],[16,8],[17,41],[44,27],[12,45],[33],[8],[16],[23],[23],[23],[29],[38,32],[29],[6],[40,11],[16],[22,33],[27,5],[3],[10],[29],[16,14],[46,47],[48,9],[36,17],[33],[14,24],[16],[8],[2,50],[31,36],[17,45],[46,31],[2,6],[16,2],[39,30],[33],[45],[30],[27]]";
+		List<Object> resList = MethodInvoker.invokeBatch(methods, params, Day321_Allocator.class);
+		System.out.println(resList);
 
 	}
 
@@ -92,9 +77,9 @@ public class Day321_Allocator {
 	int elementCnt;
 	Map<Integer, List<Integer>> midIdxMap;
 
+
 	public Day321_Allocator(int n) {
 		memoElements = new int[n];
-		Arrays.fill(memoElements, -1);
 		elementCnt = n;
 		midIdxMap = new HashMap<>();
 	}
@@ -102,10 +87,10 @@ public class Day321_Allocator {
 	public int allocate(int size, int mID) {
 		int l = 0;
 		while (l < elementCnt) {
-			if (memoElements[l] == -1) {
+			if (memoElements[l] == 0) {
 				int r = l + 1;
 				int nullCnt = 1;
-				while (r < elementCnt && memoElements[r] == -1 && nullCnt < size) {
+				while (r < elementCnt && memoElements[r] == 0 && nullCnt < size) {
 					r++;
 					nullCnt++;
 				}
@@ -132,8 +117,9 @@ public class Day321_Allocator {
 		}
 		List<Integer> idxList = midIdxMap.get(mID);
 		for (Integer idx : idxList) {
-			memoElements[idx] = -1;
+			memoElements[idx] = 0;
 		}
+		midIdxMap.remove(mID);
 		return idxList.size();
 	}
 
